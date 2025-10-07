@@ -1,0 +1,136 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Retro/Vintage styling */
+@layer base {
+  body {
+    font-family: 'Crimson Text', Georgia, serif;
+    background: linear-gradient(45deg, #FDF5E6 0%, #F5F5DC 100%);
+    min-height: 100vh;
+  }
+  
+  .retro-text {
+    font-family: 'Courier Prime', 'Courier New', monospace;
+    text-shadow: 2px 2px 0px rgba(0,0,0,0.1);
+  }
+  
+  .vintage-paper {
+    background: linear-gradient(135deg, #FDF5E6 0%, #F5F5DC 50%, #FAEBD7 100%);
+    box-shadow: 
+      inset 0 0 20px rgba(139, 69, 19, 0.1),
+      0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .retro-border {
+    border: 3px solid #8B4513;
+    border-radius: 0;
+    position: relative;
+  }
+  
+  .retro-border::before {
+    content: '';
+    position: absolute;
+    top: -6px;
+    left: -6px;
+    right: -6px;
+    bottom: -6px;
+    border: 1px solid #D2691E;
+    pointer-events: none;
+  }
+  
+  .retro-button {
+    @apply bg-retro-brown text-vintage-paper font-bold py-3 px-6 retro-border;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .retro-button:hover {
+    @apply bg-retro-orange;
+    transform: translate(-2px, -2px);
+    box-shadow: 4px 4px 0px 0px rgba(0,0,0,0.3);
+  }
+  
+  .retro-button:active {
+    transform: translate(0, 0);
+    box-shadow: 2px 2px 0px 0px rgba(0,0,0,0.3);
+  }
+  
+  .vintage-card {
+    @apply vintage-paper retro-border p-6;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .vintage-card::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+      radial-gradient(circle at 20% 80%, rgba(139, 69, 19, 0.1) 0%, transparent 50%),
+      radial-gradient(circle at 80% 20%, rgba(139, 69, 19, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+  }
+  
+  .typewriter {
+    border-right: 3px solid #8B4513;
+    white-space: nowrap;
+    animation: typewriter 3s steps(40) 1s 1 normal both, blink 1s infinite;
+  }
+  
+  .anime-card {
+    transition: all 0.3s ease;
+    transform-origin: center;
+    min-height: 350px;
+    max-width: 320px;
+    width: 100%;
+  }
+  
+  @media (max-width: 640px) {
+    .anime-card {
+      min-height: 320px;
+      max-width: 280px;
+    }
+  }
+  
+  .anime-card:hover {
+    transform: scale(1.02) rotate(0.5deg);
+    box-shadow: 
+      0 12px 24px rgba(0, 0, 0, 0.3),
+      inset 0 0 20px rgba(255, 140, 0, 0.1);
+  }
+  
+  .vintage-select {
+    @apply retro-border bg-vintage-paper text-vintage-ink p-3;
+    appearance: none;
+    background-position: right 12px center;
+    background-repeat: no-repeat;
+    background-size: 16px;
+    padding-right: 40px;
+  }
+  
+  .retro-checkbox {
+    appearance: none;
+    @apply w-6 h-6 retro-border bg-vintage-paper mr-3;
+    position: relative;
+  }
+  
+  .retro-checkbox:checked {
+    @apply bg-retro-orange;
+  }
+  
+  .retro-checkbox:checked::after {
+    content: '✓';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FDF5E6;
+    font-weight: bold;
+    font-size: 14px;
+  }
+}

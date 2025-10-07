@@ -1,0 +1,564 @@
+base_title,episodes,year,rating,genres,mood,complexity,pacing,target_audience,themes,setting,art_style,popularity_score
+Frieren: Beyond Journey's End,28,2023,9.29,"['Fantasy', 'Drama', 'Adventure']",melancholic,medium,slow,mature,friendship_loss_immortality,medieval_fantasy,beautiful,95
+Fullmetal Alchemist: Brotherhood,64,2009,9.1,"['Fantasy', 'Drama', 'Adventure', 'Action']",serious,high,medium,teen_adult,sacrifice_morality_family,steampunk_fantasy,detailed,98
+Steins;Gate,24,2011,9.07,"['Drama', 'Sci-Fi', 'Suspense']",tense,very_high,slow_then_fast,mature,time_travel_consequences,modern_urban,realistic,92
+Attack on Titan,89,2013,9.05,"['Drama', 'Action', 'Suspense', 'Horror']",intense,high,fast,mature,survival_freedom_war,post_apocalyptic,detailed,99
+Hunter x Hunter,148,2011,9.03,"['Fantasy', 'Adventure', 'Action']",adventurous,medium,medium,teen,friendship_growth_power,fantasy_world,colorful,90
+Legend of the Galactic Heroes,110,1988,9.02,"['Drama', 'Sci-Fi']",epic,very_high,slow,mature,politics_war_philosophy,space_opera,classic,85
+Gintama,367,2006,9.0,"['Comedy', 'Action', 'Sci-Fi']",hilarious,low,episodic,teen_adult,parody_samurai_friendship,sci_fi_edo_japan,comedic,91
+A Silent Voice,1,2016,8.93,"['Drama', 'Award Winning']",emotional,medium,slow,mature,bullying_redemption_disability,modern_school,realistic,93
+Monster,74,2004,8.89,"['Drama', 'Mystery', 'Suspense']",psychological,very_high,slow,mature,human_nature_evil,realistic_europe,realistic,88
+Your Name,1,2016,8.83,"['Drama', 'Romance', 'Award Winning']",romantic,medium,medium,teen_adult,love_fate_connection,modern_rural_urban,beautiful,98
+One Piece,1100,1999,8.73,"['Fantasy', 'Adventure', 'Action']",adventurous,medium,medium,teen,friendship_dreams_freedom,pirate_fantasy,unique,100
+Code Geass,50,2006,8.71,"['Drama', 'Sci-Fi', 'Action', 'Mecha']",strategic,high,fast,mature,rebellion_power_sacrifice,alternate_history,detailed,95
+Cowboy Bebop,26,1998,8.75,"['Sci-Fi', 'Action', 'Award Winning']",melancholic,medium,episodic,mature,loneliness_past_redemption,space_western,stylish,92
+Demon Slayer: Kimetsu no Yaiba,55,2019,8.7,"['Action', 'Supernatural']",heroic,low,fast,teen,family_revenge_duty,historical_japan,stunning,99
+Jujutsu Kaisen,47,2020,8.65,"['Action', 'Supernatural']",dark_fun,medium,fast,teen,curses_friendship_sacrifice,modern_urban,modern,97
+Vinland Saga,48,2019,8.6,"['Drama', 'Adventure', 'Action', 'Historical']",mature,high,slow,mature,war_revenge_pacifism,viking_historical,realistic,86
+Death Note,37,2006,8.62,"['Suspense', 'Supernatural']",dark,high,fast,mature,justice_morality_power,modern_urban,gothic,96
+Your Lie in April,22,2014,8.64,"['Drama', 'Romance']",bittersweet,medium,medium,teen,music_love_loss,modern_school,beautiful,94
+Clannad: After Story,24,2008,9.04,"['Drama', 'Romance']",emotional,medium,slow,mature,family_love_life_death,modern_realistic,soft,89
+Mushishi,46,2005,8.65,"['Adventure', 'Mystery', 'Slice of Life', 'Supernatural']",contemplative,medium,very_slow,mature,nature_spirituality_mystery,historical_rural,atmospheric,81
+Violet Evergarden,13,2018,8.69,"['Drama']",emotional,medium,slow,mature,love_loss_healing,post_war_fantasy,gorgeous,89
+Mob Psycho 100,37,2016,8.6,"['Comedy', 'Action', 'Supernatural']",wholesome,medium,medium,teen,self_improvement_kindness,modern_urban,unique,91
+Berserk,25,1997,8.6,"['Drama', 'Fantasy', 'Adventure', 'Action', 'Horror']",dark,high,medium,mature,betrayal_revenge_darkness,medieval_dark_fantasy,gritty,84
+One-Punch Man,24,2015,8.55,"['Comedy', 'Action', 'Superhero']",satirical,low,fast,teen_adult,heroism_boredom_parody,modern_superhero,dynamic,96
+Samurai Champloo,26,2004,8.5,"['Adventure', 'Comedy', 'Action']",stylish,medium,episodic,mature,journey_friendship_past,edo_period_japan,hip_hop,91
+The Promised Neverland,12,2019,8.49,"['Drama', 'Mystery', 'Suspense']",tense,high,fast,teen,escape_intelligence_family,dystopian_orphanage,clean,93
+Haikyuu!!,85,2014,8.44,"['Sports', 'Comedy']",inspiring,low,fast,teen,teamwork_perseverance_growth,modern_school,energetic,94
+Psycho-Pass,22,2012,8.33,"['Suspense', 'Mystery', 'Sci-Fi', 'Action']",dystopian,high,medium,mature,justice_free_will_surveillance,cyberpunk,sleek,87
+Neon Genesis Evangelion,26,1995,8.36,"['Drama', 'Sci-Fi', 'Suspense', 'Avant Garde', 'Action']",psychological,very_high,complex,mature,depression_identity_apocalypse,post_apocalyptic,abstract,89
+Parasyte: The Maxim,24,2014,8.32,"['Suspense', 'Sci-Fi', 'Horror', 'Action']",psychological,high,medium,mature,humanity_survival_identity,modern_urban,realistic,88
+March Comes in Like a Lion,44,2016,8.32,"['Drama', 'Slice of Life']",melancholic,medium,slow,mature,depression_family_healing,modern_realistic,soft,85
+Erased,12,2016,8.31,"['Drama', 'Mystery', 'Suspense']",emotional,medium,medium,mature,time_travel_child_abuse_redemption,modern_realistic,clean,91
+Anohana: The Flower We Saw That Day,11,2011,8.29,"['Drama']",emotional,medium,medium,teen_adult,grief_friendship_guilt,modern_realistic,soft,88
+Dr. Stone,57,2019,8.22,"['Adventure', 'Comedy', 'Sci-Fi']",educational,medium,medium,teen,science_civilization_friendship,post_apocalyptic,colorful,89
+Gurren Lagann,27,2007,8.62,"['Action', 'Adventure', 'Comedy', 'Mecha', 'Sci-Fi']",epic,medium,fast,teen_adult,evolution_fighting_spirit,post_apocalyptic,dynamic,90
+Re:Zero - Starting Life in Another World,50,2016,8.22,"['Fantasy', 'Drama', 'Suspense', 'Isekai']",intense,high,medium,mature,suffering_redemption_obsession,fantasy_world,modern,95
+Made in Abyss,25,2017,8.71,"['Fantasy', 'Adventure', 'Mystery', 'Horror']",dark,high,slow,mature,exploration_sacrifice_brutality,fantasy_abyss,picturesque,87
+Chainsaw Man,12,2022,8.55,"['Action', 'Supernatural', 'Horror']",chaotic,medium,fast,mature,dreams_survival_humanity,modern_urban_fantasy,cinematic,98
+Spy x Family,37,2022,8.59,"['Comedy', 'Action', 'Slice of Life']",heartwarming,low,medium,family,family_espionage_comedy,fictional_cold_war,clean,99
+Fruits Basket,63,2019,8.5,"['Drama', 'Romance', 'Supernatural']",emotional,medium,medium,teen_adult,trauma_acceptance_love,modern_realistic,soft,92
+Bocchi the Rock!,12,2022,8.81,"['Comedy', 'Music', 'Slice of Life']",anxious,low,medium,teen_adult,social_anxiety_friendship_music,modern_school,expressive,90
+Ranking of Kings,23,2021,8.8,"['Fantasy', 'Adventure']",inspiring,medium,medium,family,strength_kindness_prejudice,fairytale_fantasy,picture_book,89
+Mushoku Tensei: Jobless Reincarnation,47,2021,8.37,"['Fantasy', 'Adventure', 'Drama', 'Isekai']",adventurous,medium,slow,mature,redemption_growth_world_building,detailed_fantasy_world,high_quality,93
+Madoka Magica,12,2011,8.37,"['Drama', 'Suspense', 'Horror']",dark,very_high,fast,mature,hope_despair_sacrifice,modern_magical,unique,91
+Kill la Kill,24,2013,8.04,"['Action', 'Comedy']",hyperactive,low,very_fast,mature,freedom_identity_fashion,dystopian_school,exaggerated,88
+FLCL,6,2000,7.97,"['Comedy', 'Sci-Fi', 'Avant Garde', 'Action']",surreal,very_high,very_fast,mature,puberty_growing_up,modern_suburban,chaotic,82
+Baccano!,16,2007,8.37,"['Action', 'Mystery', 'Supernatural']",chaotic,very_high,non_linear,mature,immortality_crime_storytelling,1930s_america,detailed,84
+Durarara!!,60,2010,8.13,"['Action', 'Mystery', 'Supernatural']",interconnected,high,medium,mature,urban_legends_human_connection,modern_tokyo,stylish,89
+JoJo's Bizarre Adventure,190,2012,8.5,"['Fantasy', 'Adventure', 'Action']",bizarre,medium,medium,teen_adult,fate_family_strategy,historical_modern,unique,96
+Ouran High School Host Club,26,2006,8.15,"['Comedy', 'Romance']",lighthearted,low,medium,teen,parody_friendship_class,modern_school,elegant,92
+Maid Sama!,26,2010,8.0,"['Comedy', 'Romance']",charming,low,medium,teen,love_school_life,modern_school,classic_shoujo,89
+Yona of the Dawn,24,2014,8.05,"['Fantasy', 'Drama', 'Adventure', 'Romance']",adventurous,medium,medium,teen,coming_of_age_royalty_revenge,historical_fantasy,beautiful,86
+Hajime no Ippo: The Fighting!,75,2000,8.71,"['Sports', 'Comedy']",motivational,medium,medium,teen,boxing_determination_growth,90s_japan,classic,87
+Yuri!!! on Ice,12,2016,7.91,"['Sports', 'Drama', 'Romance']",emotional,low,medium,teen_adult,ice_skating_love_anxiety,modern_international,graceful,90
+Overlord,52,2015,7.91,"['Fantasy', 'Action', 'Isekai']",dark,medium,medium,mature,power_conquest_morality,fantasy_game_world,detailed,92
+Konosuba: God's Blessing on This Wonderful World!,20,2016,8.11,"['Comedy', 'Fantasy', 'Adventure', 'Isekai']",satirical,low,fast,teen_adult,parody_comedy_adventure,fantasy_game_world,expressive,94
+That Time I Got Reincarnated as a Slime,48,2018,8.11,"['Fantasy', 'Adventure', 'Isekai']",lighthearted,low,medium,teen,nation_building_friendship,fantasy_world,colorful,93
+From the New World,25,2012,8.29,"['Drama', 'Mystery', 'Sci-Fi', 'Horror']",unsettling,very_high,slow,mature,society_power_humanity,dystopian_future,atmospheric,80
+Ergo Proxy,23,2006,7.86,"['Mystery', 'Sci-Fi', 'Suspense']",philosophical,very_high,slow,mature,consciousness_identity_dystopia,post_apocalyptic,dark,78
+Natsume's Book of Friends,74,2008,8.3,"['Drama', 'Slice of Life', 'Supernatural']",gentle,low,slow,family,kindness_loneliness_spirits,modern_rural,soft,84
+Laid-Back Camp,37,2018,8.23,"['Slice of Life', 'Comedy']",cozy,low,very_slow,family,camping_friendship_nature,modern_japan,cute,85
+Horimiya,13,2021,8.17,"['Romance', 'Slice of Life', 'Comedy']",wholesome,low,medium,teen,love_identity_high_school,modern_school,clean,92
+My Dress-Up Darling,12,2022,8.23,"['Romance', 'Slice of Life', 'Comedy']",charming,low,medium,teen,cosplay_passion_romance,modern_school,vibrant,91
+Oshi no Ko,11,2023,8.87,"['Drama', 'Supernatural', 'Suspense']",dramatic,high,fast,mature,entertainment_industry_revenge,modern_japan,stylish,97
+Cyberpunk: Edgerunners,10,2022,8.58,"['Sci-Fi', 'Action']",tragic,medium,fast,mature,dystopia_transhumanism_love,cyberpunk_city,vibrant,94
+The Girl Who Leapt Through Time,1,2006,8.24,"['Drama', 'Romance', 'Sci-Fi', 'Award Winning']",bittersweet,medium,medium,teen_adult,time_travel_youth_consequences,modern_school,simple,86
+Wolf Children,1,2012,8.56,"['Fantasy', 'Slice of Life', 'Award Winning']",heartwarming,medium,slow,family,motherhood_family_identity,modern_rural,beautiful,88
+Dragon Ball Z,291,1989,8.15,"['Action', 'Adventure']",epic,low,medium,teen,power_fighting_friendship,sci_fi_fantasy_world,classic_toriyama,99
+Sailor Moon,200,1992,7.7,"['Romance', 'Supernatural']",magical,low,episodic,teen,love_friendship_destiny,modern_tokyo,classic_shoujo,95
+Yu Yu Hakusho: Ghost Files,112,1992,8.44,"['Action', 'Supernatural']",action_packed,medium,medium,teen,spirit_detective_tournaments_friendship,modern_urban_demon_world,classic_90s,93
+Rurouni Kenshin,95,1996,8.37,"['Action', 'Adventure', 'Romance']",historical,medium,medium,teen_adult,redemption_samurai_peace,meiji_era_japan,classic_90s,89
+Inuyasha,193,2000,7.85,"['Action', 'Adventure', 'Fantasy', 'Romance']",adventurous,medium,medium,teen,demons_love_time_travel,feudal_japan,classic,94
+Fullmetal Alchemist,51,2003,8.17,"['Fantasy', 'Drama', 'Adventure', 'Action']",darker,high,medium,teen_adult,equivalent_exchange_family,steampunk_fantasy,detailed_03,91
+Soul Eater,51,2008,7.85,"['Action', 'Supernatural', 'Comedy']",stylish,medium,medium,teen,partnership_madness_soul,fantasy_school,gothic_pop,90
+Fairy Tail,328,2009,7.6,"['Fantasy', 'Adventure', 'Action', 'Comedy']",lighthearted,low,medium,teen,friendship_guild_magic,fantasy_world,standard,95
+Black Clover,170,2017,7.4,"['Fantasy', 'Action', 'Comedy']",energetic,low,fast,teen,perseverance_magic_rivalry,fantasy_world,modern_shonen,92
+The Rising of the Shield Hero,38,2019,7.92,"['Fantasy', 'Action', 'Isekai']",dark,medium,medium,teen_adult,betrayal_prejudice_trust,fantasy_world,modern,93
+No Game No Life,12,2014,8.12,"['Comedy', 'Fantasy', 'Isekai']",strategic,medium,fast,teen_adult,games_intelligence_strategy,fantasy_game_world,vibrant,90
+Death Parade,12,2015,8.16,"['Drama', 'Mystery', 'Suspense']",philosophical,high,episodic,mature,judgment_humanity_afterlife,limbo_bar,elegant,85
+Terror in Resonance,11,2014,8.08,"['Suspense', 'Mystery']",tense,high,medium,mature,terrorism_society_youth,modern_tokyo,realistic,83
+Odd Taxi,13,2021,8.69,"['Mystery']",dialogue_driven,high,slow,mature,mystery_secrets_modern_life,anthropomorphic_tokyo,simple,82
+To Your Eternity,40,2021,8.41,"['Drama', 'Fantasy', 'Supernatural']",emotional,medium,slow,mature,immortality_humanity_loss,various_fantasy,clean,86
+Vivy: Fluorite Eye's Song,13,2021,8.37,"['Sci-Fi', 'Action', 'Music']",thrilling,high,fast,mature,ai_humanity_time_travel,future_earth,sleek,84
+86,23,2021,8.3,"['Drama', 'Sci-Fi', 'Action', 'Mecha']",tragic,high,medium,mature,war_racism_dehumanization,dystopian_military,sharp,85
+Golden Kamuy,49,2018,7.99,"['Adventure', 'Action', 'Historical']",unpredictable,medium,medium,mature,survival_treasure_ainu_culture,meiji_era_hokkaido,gritty,81
+Space Brothers,99,2012,8.46,"['Comedy', 'Sci-Fi', 'Slice of Life']",inspiring,low,slow,all_ages,dreams_space_brotherhood,modern_realistic,clean,80
+Barakamon,12,2014,8.34,"['Comedy', 'Slice of Life']",heartwarming,low,slow,family,calligraphy_rural_life_community,modern_rural_island,soft,83
+Kimi ni Todoke: From Me to You,38,2009,7.97,"['Romance', 'Slice of Life']",sweet,low,slow,teen,first_love_friendship_misunderstanding,modern_school,classic_shoujo,88
+Nana,47,2006,8.43,"['Drama', 'Romance', 'Music', 'Slice of Life']",realistic,medium,medium,mature,love_friendship_adulthood,modern_tokyo,fashionable,87
+Cardcaptor Sakura,70,1998,8.13,"['Fantasy', 'Romance']",magical,low,episodic,family,magical_girl_love_friendship,modern_town,classic_shoujo,86
+Blue Lock,24,2022,8.21,"['Sports']",intense,low,fast,teen,ego_soccer_competition,training_facility,sharp,91
+Run with the Wind,23,2018,8.38,"['Sports', 'Drama']",motivational,medium,medium,teen_adult,running_teamwork_personal_growth,modern_university,realistic,82
+Free!,37,2013,7.31,"['Sports', 'Slice of Life']",fun,low,medium,teen,swimming_friendship_rivalry,modern_school,attractive,87
+The Quintessential Quintuplets,24,2019,7.57,"['Comedy', 'Romance']",harem,low,medium,teen,love_study_family,modern_school,cute,92
+Howl's Moving Castle,1,2004,8.66,"['Fantasy', 'Adventure', 'Award Winning']",whimsical,medium,medium,family,love_war_identity,magical_fantasy,ghibli,94
+My Neighbor Totoro,1,1988,8.37,"['Fantasy', 'Award Winning']",heartwarming,low,slow,family,childhood_nature_family,rural_japan,ghibli,91
+Kiki's Delivery Service,1,1989,8.21,"['Fantasy', 'Adventure']",charming,low,slow,family,coming_of_age_independence,witch_town,ghibli,90
+Castle in the Sky,1,1986,8.28,"['Fantasy', 'Adventure', 'Award Winning']",adventurous,medium,medium,family,adventure_technology_nature,floating_island,ghibli,88
+Nausicaä of the Valley of the Wind,1,1984,8.35,"['Fantasy', 'Adventure', 'Award Winning']",environmental,high,medium,mature,nature_war_pacifism,post_apocalyptic,ghibli,85
+Naruto Shippuden,500,2007,8.26,"['Action', 'Adventure']",epic,medium,medium,teen,war_friendship_sacrifice,ninja_fantasy,classic,98
+Dragon Ball,153,1986,8.02,"['Adventure', 'Comedy', 'Fantasy']",adventurous,low,medium,family,adventure_martial_arts_friendship,fantasy_world,classic_toriyama,93
+Mobile Suit Gundam,43,1979,7.91,"['Sci-Fi', 'Mecha', 'Drama']",classic,high,medium,mature,war_politics_newtypes,space_opera,retro,78
+Mobile Suit Gundam Wing,49,1995,7.67,"['Sci-Fi', 'Mecha', 'Action']",dramatic,high,medium,teen,war_terrorism_philosophy,space_colony,classic_90s,85
+Mobile Suit Gundam SEED,50,2002,7.8,"['Sci-Fi', 'Mecha', 'Drama', 'Action']",emotional,high,medium,teen_adult,war_racism_genetics,space_opera,modern_classic,83
+Macross Frontier,25,2008,8.02,"['Sci-Fi', 'Mecha', 'Romance', 'Music']",operatic,medium,medium,teen_adult,music_love_triangle_war,space_opera,vibrant,80
+Summertime Rendering,25,2022,8.47,"['Mystery', 'Suspense', 'Supernatural']",tense,high,fast,mature,time_loops_mystery_horror,modern_rural_island,clean,86
+Another,12,2012,7.49,"['Mystery', 'Suspense', 'Horror']",gory,medium,medium,mature,curse_death_mystery,modern_school,dark,88
+When They Cry,26,2006,7.85,"['Mystery', 'Suspense', 'Horror']",unsettling,very_high,non_linear,mature,madness_conspiracy_time_loops,rural_village,moe_horror,82
+Shiki,22,2010,7.74,"['Mystery', 'Suspense', 'Horror', 'Supernatural']",dread,high,slow,mature,vampires_humanity_paranoia,isolated_village,stylized,79
+Devilman Crybaby,10,2018,7.82,"['Action', 'Supernatural', 'Horror']",apocalyptic,very_high,fast,very_mature,humanity_devils_love,modern_world,unique,87
+Dororo,24,2019,8.2,"['Action', 'Adventure', 'Supernatural', 'Historical']",dark,medium,medium,mature,humanity_demons_revenge,feudal_japan,gritty,88
+The Tatami Galaxy,11,2010,8.58,"['Mystery', 'Romance', 'Avant Garde']",fast_talking,very_high,very_fast,mature,college_life_choices_fate,kyoto_university,unique,81
+Monogatari Series,100,2009,8.3,"['Mystery', 'Romance', 'Supernatural', 'Avant Garde']",dialogue_heavy,very_high,fast,mature,aberrations_love_language,modern_japan,shaft,90
+Land of the Lustrous,12,2017,8.36,"['Fantasy', 'Action', 'Drama']",beautiful,high,medium,mature,immortality_identity_buddhism,far_future_earth,stunning_cgi,84
+Keep Your Hands Off Eizouken!,12,2020,8.1,"['Comedy', 'Adventure']",creative,low,medium,teen_adult,animation_passion_friendship,modern_school,energetic,83
+Great Pretender,23,2020,8.2,"['Comedy', 'Action']",clever,medium,fast,mature,con_artists_trust_justice,international,colorful,85
+Beastars,24,2019,7.85,"['Drama', 'Slice of Life', 'Suspense']",psychological,high,medium,mature,instinct_society_prejudice,anthropomorphic_school,unique_cgi,88
+Aggretsuko,50,2018,7.8,"['Comedy', 'Slice of Life']",relatable,low,fast,mature,office_life_rage_adulthood,modern_tokyo,sanrio,84
+Megalo Box,26,2018,7.86,"['Sports', 'Sci-Fi', 'Drama']",gritty,medium,medium,mature,boxing_destiny_underdog,dystopian_city,retro_futuristic,80
+Banana Fish,24,2018,8.47,"['Action', 'Drama', 'Suspense']",tragic,high,medium,mature,gangs_trauma_love,modern_new_york,sharp,86
+The Ancient Magus' Bride,36,2017,7.94,"['Fantasy', 'Slice of Life']",magical,medium,slow,mature,magic_slavery_love,rural_england,gorgeous,85
+Goblin Slayer,24,2018,7.39,"['Fantasy', 'Action']",brutal,low,medium,mature,goblins_trauma_adventure,medieval_fantasy,dark,89
+I Want to Eat Your Pancreas,1,2018,8.51,"['Drama', 'Romance']",emotional,medium,medium,teen_adult,illness_life_love,modern_japan,soft,88
+Redline,1,2009,8.23,"['Sci-Fi', 'Action', 'Sports']",hyper,low,very_fast,mature,racing_love_freedom,alien_planets,hand_drawn,79
+Sword of the Stranger,1,2007,8.27,"['Action', 'Adventure', 'Historical']",action_packed,medium,medium,mature,samurai_redemption_protection,sengoku_japan,fluid_animation,81
+Heavenly Delusion,13,2023,8.19,"['Sci-Fi', 'Mystery', 'Adventure']",post_apocalyptic,high,medium,mature,dystopia_monsters_identity,post_apocalyptic_japan,detailed,87
+Skip and Loafer,12,2023,8.18,"['Slice of Life', 'Comedy', 'Romance']",charming,low,slow,teen_adult,high_school_ambition_friendship,modern_tokyo,soft,84
+Bleach: Thousand-Year Blood War,52,2022,8.9,"['Action', 'Adventure', 'Supernatural']",epic,medium,fast,teen_adult,war_power_destiny,soul_society,modern,96
+Bungo Stray Dogs,61,2016,7.9,"['Action', 'Mystery', 'Supernatural']",stylish,medium,medium,teen_adult,detectives_mafia_literary_figures,modern_yokohama,sharp,90
+Fire Force,48,2019,7.5,"['Action', 'Supernatural']",fiery,medium,fast,teen,firefighters_conspiracy_religion,post_apocalyptic_tokyo,dynamic,88
+The Case Study of Vanitas,24,2021,7.9,"['Supernatural', 'Fantasy', 'Historical']",vampiric,medium,medium,teen_adult,vampires_steampunk_mystery,19th_century_paris,elegant,84
+Moriarty the Patriot,24,2020,8.0,"['Mystery', 'Suspense', 'Historical']",intelligent,high,medium,mature,crime_classism_justice,19th_century_london,sharp,83
+Hyouka,22,2012,8.03,"['Mystery', 'Slice of Life']",mundane_mystery,medium,slow,teen,curiosity_high_school_mysteries,modern_school,beautiful_kyoto,87
+The Melancholy of Haruhi Suzumiya,28,2006,7.8,"['Comedy', 'Mystery', 'Sci-Fi', 'Slice of Life']",unpredictable,high,non_linear,teen_adult,reality_warping_school_life,modern_school,classic_kyoto,89
+Nichijou - My Ordinary Life,26,2011,8.3,"['Comedy', 'Slice of Life']",absurdist,low,episodic,teen_adult,surreal_comedy_school_life,modern_town,exaggerated,85
+Grand Blue Dreaming,12,2018,8.3,"['Comedy', 'Slice of Life']",hilarious,low,medium,mature,diving_college_life_drinking,modern_university,expressive,89
+Hinamatsuri,12,2018,8.2,"['Comedy', 'Slice of Life', 'Supernatural']",heartwarming,low,medium,teen_adult,yakuza_psychic_girl_family,modern_tokyo,clean,84
+Cells at Work!,13,2018,7.5,"['Comedy', 'Educational']",educational,low,episodic,family,human_body_biology_work,inside_human_body,cute,85
+Log Horizon,50,2013,7.9,"['Adventure', 'Fantasy', 'Isekai']",strategic,high,medium,teen_adult,mmorpg_politics_nation_building,game_world,standard,85
+The Devil is a Part-Timer!,25,2013,7.7,"['Comedy', 'Fantasy', 'Romance']",reverse_isekai,low,medium,teen,demon_lord_fast_food_comedy,modern_tokyo,standard,91
+Miss Kobayashi's Dragon Maid,23,2017,8.0,"['Comedy', 'Slice of Life', 'Fantasy']",wholesome,low,slow,teen_adult,dragons_family_slice_of_life,modern_japan,kyoto_animation,90
+Shirobako,24,2014,8.3,"['Comedy', 'Drama', 'Slice of Life']",insightful,medium,medium,teen_adult,anime_industry_passion_work,anime_studio,realistic,80
+Bakuman,75,2010,8.4,"['Comedy', 'Drama', 'Romance']",inspiring,medium,medium,teen,manga_creation_dreams_rivalry,modern_japan,detailed,87
+Monthly Girls' Nozaki-kun,12,2014,7.9,"['Comedy', 'Romance', 'Slice of Life']",hilarious,low,episodic,teen,manga_creation_misunderstandings_love,modern_school,clean,88
+Wotakoi: Love is Hard for Otaku,11,2018,7.9,"['Comedy', 'Romance', 'Slice of Life']",relatable,low,medium,adult,otaku_romance_work_life,modern_office,simple,90
+Tsuki ga Kirei,12,2017,8.1,"['Romance', 'Slice of Life']",realistic,low,slow,teen,first_love_middle_school,modern_school,soft,84
+Bloom Into You,13,2018,7.9,"['Drama', 'Romance']",introspective,medium,slow,teen_adult,yuri_love_identity,modern_school,soft,82
+Given,11,2019,8.2,"['Drama', 'Romance', 'Music']",emotional,medium,medium,teen_adult,music_grief_love,modern_japan,clean,87
+Assassination Classroom,47,2015,8.3,"['Action', 'Comedy']",heartwarming,medium,medium,teen,teaching_assassination_growth,modern_school,colorful,94
+Food Wars! Shokugeki no Soma,86,2015,8.2,"['Comedy', 'Ecchi']",delicious,low,fast,teen,cooking_competition_school,culinary_academy,vibrant,92
+The Disastrous Life of Saiki K.,50,2016,8.6,"['Comedy', 'Supernatural', 'Slice of Life']",fast_paced,low,very_fast,teen,psychic_powers_comedy_school,modern_school,simple,89
+Kingdom,129,2012,8.5,"['Action', 'Historical']",epic,high,medium,mature,war_strategy_unification,ancient_china,cgi_then_2d,82
+Showa Genroku Rakugo Shinju,25,2016,8.7,"['Drama', 'Historical']",compelling,high,slow,mature,art_tradition_legacy,showa_era_japan,elegant,79
+Hellsing Ultimate,10,2006,8.3,"['Action', 'Supernatural', 'Horror']",violent,medium,slow,mature,vampires_nazis_war,modern_england,dark_stylized,88
+Spice and Wolf,25,2008,8.2,"['Adventure', 'Fantasy', 'Romance']",charming,medium,slow,mature,economics_romance_travel,medieval_europe,soft,86
+Mononoke,12,2007,8.3,"['Mystery', 'Horror', 'Supernatural']",artistic,high,episodic,mature,exorcism_folklore_psychology,feudal_japan,unique_paper,77
+Haibane Renmei,13,2002,8.0,"['Drama', 'Fantasy', 'Slice of Life', 'Mystery']",somber,high,slow,mature,sin_redemption_acceptance,limbo_town,soft,75
+Texhnolyze,22,2003,7.7,"['Sci-Fi', 'Suspense', 'Drama']",bleak,very_high,very_slow,mature,nihilism_dystopia_transhumanism,underground_city,dark_gritty,72
+Serial Experiments Lain,13,1998,8.0,"['Avant Garde', 'Drama', 'Mystery', 'Sci-Fi', 'Suspense']",philosophical,very_high,slow,mature,identity_internet_communication,modern_suburbia,surreal,80
+Kaiba,12,2008,7.91,"['Sci-Fi', 'Mystery', 'Romance', 'Avant Garde']",surreal,very_high,medium,mature,memory_identity_dystopia,dystopian_sci_fi,unique_yuasa,76
+The Vision of Escaflowne,26,1996,7.8,"['Adventure', 'Fantasy', 'Mecha', 'Romance']",epic,medium,medium,teen,fate_war_love,fantasy_world,classic_shoujo,81
+Eureka Seven,50,2005,8.1,"['Adventure', 'Drama', 'Mecha', 'Romance', 'Sci-Fi']",romantic,high,medium,teen_adult,coming_of_age_love_rebellion,far_future_earth,vibrant,84
+Revolutionary Girl Utena,39,1997,8.1,"['Drama', 'Fantasy', 'Mystery', 'Romance']",symbolic,very_high,medium,mature,fairytales_gender_revolution,fantasy_academy,stylized,78
+Princess Tutu,26,2002,8.1,"['Drama', 'Fantasy', 'Mystery', 'Romance']",fairytale,high,medium,teen,fate_free_will_ballet,magical_town,charming,76
+Aria the Animation,52,2005,8.0,"['Fantasy', 'Sci-Fi', 'Slice of Life']",peaceful,low,very_slow,family,gondoliering_friendship_beauty,future_mars_venice,beautiful,74
+Kino's Journey,13,2003,8.3,"['Adventure', 'Slice of Life', 'Philosophical']",introspective,medium,episodic,mature,travel_humanity_perspective,various_countries,subdued,79
+Girls' Last Tour,12,2017,8.11,"['Adventure', 'Slice of Life', 'Sci-Fi']",melancholic,low,slow,mature,post_apocalypse_hope_despair,post_apocalyptic_city,cute,82
+Sonny Boy,12,2021,7.8,"['Sci-Fi', 'Suspense', 'Avant Garde']",enigmatic,very_high,slow,mature,drifting_superpowers_society,other_dimensions,minimalist,77
+Millennium Actress,1,2001,8.2,"['Drama', 'Fantasy', 'Award Winning']",nostalgic,high,fast,mature,love_memory_film,20th_century_japan,realistic,80
+Tokyo Godfathers,1,2003,8.2,"['Comedy', 'Drama', 'Award Winning']",heartwarming,medium,medium,mature,family_coincidence_homelessness,modern_tokyo,realistic,83
+Porco Rosso,1,1992,8.1,"['Adventure', 'Award Winning']",charming,medium,medium,family,aviation_bounty_hunting_fascism,1930s_adriatic,ghibli,82
+The Tale of The Princess Kaguya,1,2013,8.2,"['Drama', 'Fantasy', 'Historical', 'Award Winning']",bittersweet,medium,slow,family,life_happiness_mortality,heian_japan,sumi_e,81
+Summer Wars,1,2009,8.1,"['Sci-Fi', 'Comedy', 'Award Winning']",exciting,medium,fast,family,family_virtual_reality_ai,modern_rural_japan,vibrant,87
+The Boy and the Beast,1,2015,8.1,"['Adventure', 'Fantasy', 'Supernatural']",action_packed,medium,medium,family,father_son_coming_of_age,modern_tokyo_beast_world,dynamic,85
+Mirai,1,2018,7.6,"['Adventure', 'Drama', 'Fantasy', 'Award Winning']",imaginative,low,slow,family,family_siblinghood_time_travel,modern_japan,soft,79
+Belle,1,2021,8.12,"['Drama', 'Fantasy', 'Music', 'Award Winning']",emotional,medium,medium,teen_adult,identity_social_media_grief,modern_virtual_world,gorgeous,86
+Promare,1,2019,8.0,"['Action', 'Sci-Fi', 'Mecha']",fiery,low,very_fast,teen_adult,firefighters_mutants_style,futuristic_city,trigger,85
+Grave of the Fireflies,1,1988,8.53,"['Drama']",tragic,low,slow,mature,war_family_survival,wartime_japan,realistic,85
+Akira,1,1988,8.0,"['Sci-Fi', 'Action', 'Award Winning']",dystopian,high,fast,mature,power_corruption_friendship,cyberpunk,iconic,87
+Ghost in the Shell,1,1995,8.0,"['Sci-Fi', 'Action', 'Award Winning']",philosophical,high,medium,mature,identity_technology_consciousness,cyberpunk,detailed,84
+Perfect Blue,1,1997,8.55,"['Drama', 'Suspense', 'Award Winning', 'Horror']",psychological,very_high,medium,mature,identity_fame_reality,modern_urban,realistic,82
+Paprika,1,2006,8.0,"['Sci-Fi', 'Award Winning']",surreal,high,fast,mature,dreams_reality_technology,modern_urban,colorful,80
+Tokyo Ghoul,12,2014,7.79,"['Action', 'Supernatural', 'Horror']",dark,medium,fast,mature,identity_humanity_survival,modern_urban,dark,94
+Clannad,23,2007,8.0,"['Comedy', 'Drama', 'Romance']",heartwarming,low,slow,teen,school_life_family_love,modern_school,soft,85
+Angel Beats!,13,2010,8.09,"['Comedy', 'Drama']",bittersweet,medium,medium,teen,afterlife_regret_acceptance,school_afterlife,colorful,89
+Toradora!,25,2008,8.05,"['Comedy', 'Romance']",heartwarming,low,medium,teen,tsundere_love_friendship,modern_school,cute,90
+K-On!,41,2009,7.81,"['Comedy', 'Music', 'Slice of Life']",cute,low,slow,teen,music_friendship_school_life,modern_school,moe,87
+Non Non Biyori,36,2013,7.94,"['Slice of Life', 'Comedy']",peaceful,low,very_slow,family,rural_life_childhood_friendship,modern_rural,cute,79
+Ping Pong The Animation,11,2014,8.62,"['Drama', 'Sports', 'Award Winning']",artistic,high,medium,mature,talent_friendship_passion,modern_realistic,unique,83
+Slam Dunk,101,1993,8.55,"['Sports', 'Comedy']",classic,low,medium,teen,basketball_delinquent_growth,90s_school,retro,88
+Kuroko's Basketball,75,2012,8.06,"['Sports']",intense,low,fast,teen,basketball_rivalry_teamwork,modern_school,dynamic,91
+My Hero Academia,138,2016,7.87,"['Action', 'Adventure']",inspiring,low,fast,teen,heroism_friendship_growth,modern_superhero,colorful,95
+Steins;Gate 0,23,2018,8.44,"['Drama', 'Sci-Fi', 'Suspense']",depressing,very_high,slow,mature,grief_consequences_ai,modern_urban,realistic,89
+Trigun,26,1998,8.19,"['Sci-Fi', 'Action', 'Comedy']",fun,medium,episodic,mature,pacifism_past_sins,space_western,classic_90s,86
+Bleach,366,2004,7.88,"['Action', 'Adventure', 'Supernatural']",action_packed,medium,medium,teen,duty_friendship_power,modern_urban_spirit_world,stylish,97
+5 Centimeters Per Second,1,2007,7.56,"['Drama', 'Romance']",melancholic,low,slow,mature,distance_love_time,modern_realistic,photorealistic,78
+The Garden of Words,1,2013,7.87,"['Drama', 'Romance']",quiet,medium,slow,mature,age_gap_loneliness_rain,modern_urban,photorealistic,81
+Weathering With You,1,2019,7.5,"['Drama', 'Romance', 'Award Winning']",romantic,medium,medium,teen,love_sacrifice_weather,modern_urban,stunning,92
+Angel's Egg,1,1985,7.6,"['Avant Garde', 'Drama', 'Fantasy']",atmospheric,very_high,very_slow,mature,faith_despair_symbolism,post_apocalyptic,artistic,70
+Cat Soup,1,2001,7.5,"['Avant Garde', 'Comedy', 'Horror']",surreal,very_high,fast,mature,life_death_journey,surreal_world,experimental,68
+Magnetic Rose,1,1995,7.9,"['Sci-Fi', 'Horror', 'Suspense']",operatic,high,medium,mature,memory_loss_opera,space_wreckage,detailed,75
+Stink Bomb,1,1995,7.1,"['Comedy', 'Sci-Fi']",black_humor,low,fast,mature,bio-weapon_bureaucracy,modern_japan,realistic,71
+Cannon Fodder,1,1995,7.2,"['Sci-Fi']",dystopian,medium,slow,mature,war_propaganda,fortress_city,painted,72
+Dead Leaves,1,2004,7.1,"['Action', 'Sci-Fi', 'Comedy', 'Avant Garde']",chaotic,low,very_fast,mature,prison_break_amnesia,space_prison,hyper-stylized,74
+Vampire Hunter D: Bloodlust,1,2000,7.9,"['Action', 'Fantasy', 'Horror']",gothic,medium,medium,mature,vampire_hunting_romance,sci-fi_fantasy,dark_detailed,83
+Metropolis,1,2001,7.6,"['Sci-Fi', 'Drama']",retro_futuristic,high,medium,mature,robots_humanity_class,futuristic_city,tezuka_classic,76
+Steamboy,1,2004,7.3,"['Action', 'Sci-Fi', 'Adventure']",steampunk,medium,medium,family,invention_family_war,victorian_england,highly_detailed,78
+The Animatrix,9,2003,7.7,"['Sci-Fi', 'Action', 'Anthology']",varied,high,episodic,mature,matrix_consciousness_humanity,cyberpunk_future,diverse,82
+Final Fantasy VII: Advent Children,1,2005,7.2,"['Action', 'Fantasy', 'Sci-Fi']",action_packed,low,fast,teen_adult,redemption_guilt_fighting,post_final_fantasy_vii,cgi,85
+Kara no Kyoukai (The Garden of Sinners),8,2007,8.2,"['Action', 'Mystery', 'Supernatural', 'Suspense']",philosophical,very_high,non_linear,mature,death_consciousness_duality,modern_japan,cinematic,84
+Afro Samurai,5,2007,7.2,"['Action', 'Adventure']",stylish,low,medium,mature,revenge_samurai_hip_hop,afro-futuristic_japan,gritty,81
+Black Lagoon,24,2006,8.0,"['Action']",cynical,medium,fast,mature,crime_mercenaries_morality,southeast_asia,gritty,87
+Jormungand,24,2012,7.8,"['Action']",globetrotting,medium,medium,mature,arms_dealing_war_paradox,international,sharp,82
+Darker than Black,25,2007,7.9,"['Action', 'Mystery', 'Sci-Fi', 'Supernatural']",noir,high,episodic,mature,contractors_humanity_mystery,modern_tokyo,dark,86
+Claymore,26,2007,7.7,"['Action', 'Fantasy', 'Supernatural']",grim,medium,medium,mature,monsters_revenge_sisterhood,medieval_fantasy,gritty,85
+Ga-Rei: Zero,12,2008,7.5,"['Action', 'Supernatural', 'Drama']",tragic,medium,fast,mature,betrayal_duty_love,modern_japan,standard,79
+Elfen Lied,13,2004,7.4,"['Action', 'Horror', 'Drama', 'Supernatural']",brutal,medium,medium,very_mature,prejudice_humanity_trauma,modern_japan,bloody,88
+Mirai Nikki (The Future Diary),26,2011,7.4,"['Action', 'Suspense', 'Supernatural']",survival_game,high,fast,mature,survival_obsession_love,modern_japan,edgy,90
+Deadman Wonderland,12,2011,7.1,"['Action', 'Horror', 'Sci-Fi']",edgy,medium,fast,mature,prison_survival_conspiracy,prison_theme_park,dark,86
+Highschool of the Dead,12,2010,7.2,"['Action', 'Horror', 'Ecchi']",zombies,low,fast,mature,zombies_survival_ecchi,post_apocalyptic_japan,polished,89
+Gantz,26,2004,6.9,"['Action', 'Horror', 'Sci-Fi', 'Suspense']",nihilistic,high,medium,very_mature,survival_game_death_aliens,modern_tokyo,cgi_hybrid,83
+Blood-C,12,2011,6.3,"['Action', 'Horror', 'Supernatural']",gory,medium,slow_then_fast,mature,monsters_mystery_deception,rural_town,clamp_horror,78
+Corpse Party: Tortured Souls,4,2013,6.5,"['Horror', 'Mystery']",gruesome,low,fast,mature,ghosts_gore_school,haunted_school,gory,75
+School Days,12,2007,5.7,"['Drama', 'Romance', 'Horror']",infamous,low,medium,mature,infidelity_jealousy_madness,modern_school,standard,80
+Btooom!,12,2012,7.2,"['Action', 'Suspense', 'Sci-Fi']",survival,medium,fast,mature,survival_game_bombs,deserted_island,standard,83
+Darwin's Game,11,2020,7.1,"['Action', 'Suspense', 'Sci-Fi']",strategic,medium,fast,teen_adult,survival_game_superpowers,modern_japan,modern,82
+Kaiji: Ultimate Survivor,52,2007,8.2,"['Suspense']",intense,high,medium,mature,gambling_debt_psychology,underground,stylized,81
+Akagi,26,2005,8.0,"['Suspense']",high_stakes,high,slow,mature,mahjong_gambling_genius,post_war_japan,stylized,77
+One Outs,25,2008,8.2,"['Sports', 'Suspense']",psychological,high,medium,mature,baseball_psychological_warfare,pro_baseball_japan,stylized,79
+Liar Game (manga),0,2005,8.5,"['Suspense', 'Mystery']",intelligent,very_high,medium,mature,deception_trust_psychology,game_setting,sharp,80
+Tomodachi Game,12,2022,7.5,"['Suspense']",distrustful,high,medium,mature,friendship_betrayal_money,game_setting,modern,81
+Classroom of the Elite,25,2017,7.8,"['Drama', 'Suspense']",manipulative,high,medium,teen,school_hierarchy_intelligence,elite_high_school,sleek,91
+Kakegurui – Compulsive Gambler,24,2017,7.3,"['Drama', 'Suspense']",manic,medium,fast,mature,gambling_ecstasy_hierarchy,gambling_academy,expressive,89
+Welcome to the N.H.K.,24,2006,8.2,"['Comedy', 'Drama', 'Slice of Life']",dark_comedy,high,medium,mature,hikikomori_conspiracy_mental_health,modern_japan,simple,83
+The Tatami Galaxy,11,2010,8.58,"['Mystery', 'Romance', 'Avant Garde']",fast_talking,very_high,very_fast,mature,college_life_choices_fate,kyoto_university,unique,81
+Night is Short, Walk On Girl,1,2017,8.08,"['Comedy', 'Romance', 'Avant Garde']",energetic,high,fast,mature,love_fate_nightlife,kyoto,unique_yuasa,78
+Humanity Has Declined,12,2012,7.7,"['Comedy', 'Fantasy', 'Sci-Fi']",satirical,high,episodic,mature,satire_post_apocalypse_fairies,post_apocalyptic_world,pastel,76
+Sayonara, Zetsubou-Sensei,38,2007,7.8,"['Comedy', 'Satire']",cynical,high,fast,mature,satire_despair_social_commentary,modern_school,shaft,78
+Panty & Stocking with Garterbelt,13,2010,7.8,"['Action', 'Comedy', 'Ecchi']",crass,low,very_fast,mature,parody_angels_demons,cartoonish_city,western_cartoon,83
+Space Dandy,26,2014,7.8,"['Sci-Fi', 'Comedy']",groovy,low,episodic,mature,alien_hunting_adventure_comedy,space,colorful,80
+Excel Saga,26,1999,7.5,"['Comedy', 'Sci-Fi']",manic,low,very_fast,mature,parody_anime_tropes_absurdity,modern_fukuoka,classic_90s,74
+Bobobo-bo Bo-bobo,76,2003,7.2,"['Comedy', 'Action']",absurdist,low,episodic,family,parody_shonen_nose_hair,dystopian_future,gag_manga,75
+Azumanga Daioh,26,2002,7.9,"['Comedy', 'Slice of Life']",charming,low,episodic,teen,high_school_girls_comedy,modern_school,simple,80
+Lucky Star,24,2007,7.6,"['Comedy', 'Slice of Life']",otaku_humor,low,very_slow,teen,otaku_culture_school_life_parody,modern_school,moe,86
+Daily Lives of High School Boys,12,2012,8.1,"['Comedy', 'Slice of Life']",relatable_comedy,low,episodic,teen,high_school_boys_comedy,modern_school,simple,84
+Cromartie High School,26,2003,7.8,"['Comedy']",absurd,low,episodic,teen,delinquents_parody_surrealism,delinquent_high_school,simple,73
+Haven't You Heard? I'm Sakamoto,12,2016,7.7,"['Comedy', 'Slice of Life']",cool,low,episodic,teen,perfection_parody_school_life,modern_school,stylish,82
+Asobi Asobase -workshop of fun-,12,2018,7.9,"['Comedy', 'Slice of Life']",chaotic,low,episodic,teen_adult,middle_school_girls_absurd_comedy,modern_school,cute_and_crude,83
+Chio's School Road,12,2018,7.4,"['Comedy', 'Slice of Life']",wacky,low,episodic,teen,commuting_gaming_absurdity,modern_town,standard,77
+Detroit Metal City,12,2008,8.1,"['Comedy', 'Music']",crude,low,very_fast,mature,death_metal_parody_duality,modern_japan,raw,75
+GTO: Great Teacher Onizuka,43,1999,8.6,"['Comedy', 'Drama', 'Slice of Life']",inspirational,low,episodic,mature,teaching_delinquents_reform,modern_school,classic_90s,87
+Golden Boy,6,1995,8.0,"['Comedy', 'Ecchi']",perverted,low,episodic,mature,learning_ecchi_comedy,various_japan,classic_90s,82
+School Rumble,52,2004,7.8,"['Comedy', 'Romance']",misunderstandings,low,medium,teen,love_triangle_comedy_school,modern_school,standard,85
+Full Metal Panic!,24,2002,7.6,"['Action', 'Comedy', 'Mecha']",hybrid,medium,medium,teen,military_high_school_comedy,modern_world,standard,84
+Full Metal Panic? Fumoffu,12,2003,8.0,"['Comedy']",hilarious,low,episodic,teen,slapstick_comedy_school,modern_school,standard,83
+Full Metal Panic! The Second Raid,13,2005,8.1,"['Action', 'Drama', 'Mecha']",serious,medium,medium,mature,ptsd_war_terrorism,modern_world,detailed,82
+Amagi Brilliant Park,13,2014,7.5,"['Comedy', 'Fantasy']",entertaining,low,medium,teen,amusement_park_management_fantasy,modern_japan,kyoto_animation,83
+Blend S,12,2017,7.3,"['Comedy', 'Slice of Life']",cute,low,medium,teen,cafe_work_personality_tropes,modern_japan,moe,86
+New Game!,24,2016,7.6,"['Comedy', 'Slice of Life']",motivating,low,slow,teen,game_development_work_life,game_studio,cute,82
+Working!!,39,2010,7.7,"['Comedy', 'Slice of Life', 'Romance']",workplace_comedy,low,medium,teen,restaurant_work_romance,family_restaurant,simple,83
+Servant x Service,13,2013,7.5,"['Comedy', 'Slice of Life']",office_comedy,low,medium,teen_adult,civil_service_work_romance,government_office,simple,78
+The Royal Tutor,12,2017,7.4,"['Comedy', 'Slice of Life']",charming,low,medium,teen,tutoring_royalty_growth,fantasy_kingdom,elegant,75
+Barakamon,12,2014,8.34,"['Comedy', 'Slice of Life']",heartwarming,low,slow,family,calligraphy_rural_life_community,modern_rural_island,soft,83
+Handa-kun,12,2016,7.2,"['Comedy', 'Slice of Life']",misunderstood,low,medium,teen,prequel_comedy_misunderstandings,modern_school,soft,76
+Silver Spoon,22,2013,8.3,"['Comedy', 'Slice of Life']",educational,low,medium,teen,agriculture_coming_of_age,agricultural_high_school,realistic,82
+Moyashimon: Tales of Agriculture,11,2007,7.6,"['Comedy', 'Slice of Life', 'Supernatural']",quirky,low,medium,teen_adult,microbes_agriculture_university,agricultural_university,unique,74
+Flying Witch,12,2016,7.6,"['Slice of Life', 'Supernatural']",relaxing,low,very_slow,family,witch_rural_life_family,modern_aomori,soft,79
+Sweetness & Lightning,12,2016,7.5,"['Slice of Life', 'Comedy']",wholesome,low,slow,family,cooking_family_grief,modern_japan,soft,80
+Poco's Udon World,12,2016,7.4,"['Slice of Life', 'Fantasy']",heartwarming,low,slow,family,family_tanuki_udon,modern_kagawa,soft,76
+My Roommate is a Cat,12,2019,7.7,"['Slice of Life', 'Comedy']",dual_perspective,low,slow,family,pet_ownership_social_anxiety,modern_japan,soft,81
+Teasing Master Takagi-san,36,2018,7.8,"['Comedy', 'Romance', 'Slice of Life']",cute,low,slow,teen,teasing_first_love_middle_school,modern_school,simple,85
+Uzaki-chan Wants to Hang Out!,25,2020,6.9,"['Comedy', 'Romance', 'Slice of Life']",playful,low,medium,teen_adult,teasing_senpai_kouhai,modern_university,standard,84
+Don't Toy with Me, Miss Nagatoro,24,2021,7.2,"['Comedy', 'Romance', 'Slice of Life']",teasing,low,medium,teen_adult,teasing_art_romance,modern_school,standard,86
+Rascal Does Not Dream of Bunny Girl Senpai,13,2018,8.2,"['Comedy', 'Drama', 'Romance', 'Supernatural']",witty,high,medium,teen_adult,puberty_syndrome_love_quantum,modern_school,sharp,92
+The Pet Girl of Sakurasou,24,2012,8.1,"['Comedy', 'Drama', 'Romance', 'Slice of Life']",motivational,medium,medium,teen,talent_hard_work_love,high_school_dorm,vibrant,88
+My Teen Romantic Comedy SNAFU,38,2013,8.0,"['Comedy', 'Drama', 'Romance', 'Slice of Life']",cynical,high,medium,teen_adult,social_outcast_philosophy_love,modern_school,sharp,91
+ReLIFE,13,2016,8.0,"['Drama', 'Romance', 'Slice of Life']",second_chance,medium,medium,teen_adult,second_chance_high_school_adulthood,modern_school,clean,89
+Orange,13,2016,7.5,"['Drama', 'Romance', 'Sci-Fi']",melodramatic,medium,slow,teen,regret_suicide_friendship,modern_school,soft,87
+Scum's Wish,12,2017,7.2,"['Drama', 'Romance']",mature,medium,medium,mature,unrequited_love_sexuality,modern_school,stylish,84
+Domestic Girlfriend,12,2019,6.5,"['Drama', 'Romance']",messy,medium,fast,mature,forbidden_love_teacher_student,modern_school,standard,83
+Rent-a-Girlfriend,36,2020,6.8,"['Comedy', 'Romance']",cringey,low,medium,teen_adult,rental_girlfriend_lies_love,modern_university,vibrant,88
+My Little Monster,13,2012,7.5,"['Comedy', 'Romance']",quirky,low,medium,teen,social_outcasts_love_friendship,modern_school,standard,86
+Ao Haru Ride (Blue Spring Ride),12,2014,7.6,"['Drama', 'Romance', 'Slice of Life']",nostalgic,low,medium,teen,first_love_reconnecting,modern_school,classic_shoujo,87
+Say "I Love You",13,2012,7.4,"['Romance', 'Slice of Life']",sweet,low,medium,teen,popularity_love_friendship,modern_school,soft,85
+Lovely Complex,24,2007,8.0,"['Comedy', 'Romance']",comedic,low,medium,teen,height_complex_love_comedy,modern_school,comedic,84
+Special A,24,2008,7.6,"['Comedy', 'Romance']",rivalry,low,medium,teen,rivalry_love_elite_school,elite_high_school,standard,82
+Wolf Girl and Black Prince,12,2014,7.1,"['Comedy', 'Romance']",problematic,low,medium,teen,fake_relationship_sadism,modern_school,standard,81
+Kamisama Kiss,25,2012,7.9,"['Comedy', 'Fantasy', 'Romance', 'Supernatural']",charming,low,medium,teen,gods_yokai_love,modern_shrine,classic_shoujo,88
+Snow White with the Red Hair,24,2015,7.7,"['Drama', 'Fantasy', 'Romance']",fairytale,low,medium,teen,herbalist_prince_love,medieval_fantasy,beautiful,86
+Noragami,25,2014,8.0,"['Action', 'Comedy', 'Supernatural']",fun,medium,medium,teen,gods_spirits_friendship,modern_japan,vibrant,92
+The Devil is a Part-Timer!,25,2013,7.7,"['Comedy', 'Fantasy', 'Romance']",reverse_isekai,low,medium,teen,demon_lord_fast_food_comedy,modern_tokyo,standard,91
+Blue Exorcist,37,2011,7.5,"['Action', 'Fantasy', 'Supernatural']",shonen,medium,medium,teen,demons_exorcists_family,exorcist_academy,standard,93
+Seraph of the End: Vampire Reign,24,2015,7.4,"['Action', 'Drama', 'Supernatural']",post_apocalyptic,medium,medium,mature,vampires_revenge_family,post_apocalyptic_japan,sharp,90
+The Irregular at Magic High School,52,2014,7.2,"['Action', 'Sci-Fi', 'Supernatural']",overpowered_mc,high,medium,teen,magic_technology_school,magic_high_school,sleek,88
+Sword Art Online,96,2012,7.2,"['Action', 'Adventure', 'Fantasy', 'Romance']",virtual_reality,medium,fast,teen,vrmmorpg_survival_love,virtual_worlds,modern,96
+Accel World,24,2012,7.2,"['Action', 'Romance', 'Sci-Fi']",virtual_reality,medium,medium,teen,vr_fighting_bullying,near_future_japan,unique,84
+Is It Wrong to Try to Pick Up Girls in a Dungeon?,49,2015,7.5,"['Action', 'Adventure', 'Comedy', 'Fantasy']",dungeon_crawl,low,medium,teen,adventure_familia_growth,fantasy_city,standard,90
+Cautious Hero: The Hero Is Overpowered but Overly Cautious,12,2019,7.5,"['Adventure', 'Comedy', 'Fantasy', 'Isekai']",comedic,low,medium,teen,parody_overpowered_mc_caution,fantasy_world,standard,85
+Saga of Tanya the Evil,12,2017,7.8,"['Action', 'Fantasy', 'Isekai']",military,high,medium,mature,war_magic_reincarnation,alternate_ww1_europe,sharp,87
+Grimgar: Ashes and Illusions,12,2016,7.6,"['Action', 'Adventure', 'Drama', 'Fantasy', 'Isekai']",grounded,medium,slow,mature,survival_grief_teamwork,fantasy_world,watercolor,82
+Drifters,12,2016,7.8,"['Action', 'Fantasy', 'Historical', 'Isekai']",violent,medium,medium,mature,historical_figures_war_fantasy,fantasy_world,gritty_stylized,81
+GATE,24,2015,7.6,"['Action', 'Fantasy', 'Adventure']",military_isekai,medium,medium,mature,modern_military_vs_fantasy,fantasy_world_modern_japan,standard,86
+The Familiar of Zero,49,2006,7.2,"['Adventure', 'Comedy', 'Fantasy', 'Romance', 'Isekai']",tsundere,low,medium,teen,magic_isekai_romance,magic_academy,classic_isekai,83
+Dog Days,38,2011,6.8,"['Action', 'Adventure', 'Fantasy', 'Isekai']",fluffy,low,medium,teen,war_games_animal_people,fantasy_world,cute,75
+The Heroic Legend of Arslan,33,2015,7.6,"['Action', 'Adventure', 'Drama', 'Historical']",war_epic,high,medium,teen_adult,war_strategy_royalty,persian_inspired_fantasy,detailed,80
+Alderamin on the Sky,13,2016,7.6,"['Action', 'Adventure', 'Fantasy']",strategic,high,medium,mature,military_strategy_laziness,fantasy_empire,standard,78
+Record of Grancrest War,24,2018,6.8,"['Action', 'Fantasy', 'Romance']",fast_paced,medium,fast,teen_adult,war_politics_romance,fantasy_world,standard,77
+Record of Lodoss War,13,1990,7.3,"['Action', 'Adventure', 'Fantasy']",classic_fantasy,low,medium,teen,dnd_adventure_war,fantasy_island,classic_90s,75
+Slayers,104,1995,7.8,"['Adventure', 'Comedy', 'Fantasy']",comedic_fantasy,low,episodic,teen,magic_adventure_comedy,fantasy_world,classic_90s,80
+Magic Knight Rayearth,49,1994,7.6,"['Adventure', 'Comedy', 'Fantasy', 'Mecha']",magical_girl,medium,medium,teen,isekai_magical_girls_rpg,fantasy_world,classic_clamp,79
+Fushigi Yugi: The Mysterious Play,52,1995,7.4,"['Adventure', 'Fantasy', 'Romance']",reverse_harem,low,medium,teen,isekai_romance_destiny,ancient_china,classic_shoujo,82
+The Twelve Kingdoms,45,2002,8.0,"['Action', 'Adventure', 'Fantasy']",world_building,high,slow,mature,isekai_politics_growth,chinese_inspired_fantasy,classic,78
+Escaflowne,26,1996,7.8,"['Adventure', 'Fantasy', 'Mecha', 'Romance']",epic,medium,medium,teen,fate_war_love,fantasy_world,classic_shoujo,81
+Now and Then, Here and There,13,1999,7.7,"['Adventure', 'Drama', 'Sci-Fi']",harrowing,medium,medium,mature,child_soldiers_war_despair,dystopian_desert_world,classic_90s,74
+Casshern Sins,24,2008,7.2,"['Action', 'Drama', 'Sci-Fi']",melancholy,high,slow,mature,amnesia_ruin_redemption,post_apocalyptic_world,stylized,73
+Gungrave,26,2003,7.9,"['Action', 'Drama', 'Sci-Fi']",tragic,medium,slow_then_fast,mature,betrayal_revenge_friendship,sci_fi_city,dark,76
+Phantom: Requiem for the Phantom,26,2009,7.9,"['Action', 'Drama', 'Suspense']",noir,high,medium,mature,assassins_amnesia_tragedy,modern_world,dark,79
+91 Days,12,2016,7.7,"['Action', 'Drama', 'Historical']",revenge,medium,medium,mature,mafia_revenge_prohibition,prohibition_era_america,gritty,81
+Gangsta.,12,2015,7.1,"['Action', 'Drama']",gritty,medium,medium,mature,crime_disability_superhumans,crime_ridden_city,rough,80
+Michiko & Hatchin,22,2008,7.8,"['Action', 'Adventure']",road_trip,medium,episodic,mature,mother_daughter_freedom,south_america_inspired,vibrant,77
+Canaan,13,2009,7.1,"['Action', 'Suspense']",synesthesia,medium,fast,mature,terrorism_bio_weapons_past,shanghai,sharp,76
+Gunslinger Girl,13,2003,7.6,"['Action', 'Drama', 'Sci-Fi']",somber,medium,slow,mature,child_soldiers_cyborgs_tragedy,modern_italy,realistic,78
+Noir,26,2001,7.2,"['Action', 'Drama', 'Mystery']",stylish,medium,episodic,mature,assassins_memory_conspiracy,europe,subdued,73
+Madlax,26,2004,6.7,"['Action', 'Drama', 'Mystery']",confusing,high,slow,mature,war_memory_mystery,fictional_countries,standard,65
+El Cazador de la Bruja,26,2007,6.9,"['Action', 'Adventure']",laid_back,low,episodic,mature,road_trip_bounty_hunter_witch,mexico,standard,67
+A Certain Scientific Railgun,48,2009,7.7,"['Action', 'Sci-Fi', 'Supernatural']",esper,medium,medium,teen,superpowers_friendship_conspiracy,academy_city,modern,89
+A Certain Magical Index,74,2008,7.4,"['Action', 'Sci-Fi', 'Supernatural']",magic_vs_science,high,medium,teen,magic_science_conspiracy,academy_city,modern,88
+Durarara!!x2,36,2015,7.8,"['Action', 'Mystery', 'Supernatural']",complex,high,medium,mature,interconnected_stories_gangs,modern_tokyo,stylish,87
+The World God Only Knows,36,2010,7.7,"['Comedy', 'Romance', 'Supernatural']",dating_sim,low,episodic,teen,conquest_galge_demons,modern_school,standard,85
+Nisekoi: False Love,32,2014,7.4,"['Comedy', 'Romance']",harem,low,medium,teen,fake_relationship_harem_keys,modern_school,shaft,89
+The Familiar of Zero,49,2006,7.2,"['Adventure', 'Comedy', 'Fantasy', 'Romance', 'Isekai']",tsundere,low,medium,teen,magic_isekai_romance,magic_academy,classic_isekai,83
+To Love Ru,64,2008,7.0,"['Comedy', 'Ecchi', 'Romance', 'Sci-Fi']",harem_ecchi,low,medium,mature,aliens_harem_ecchi,modern_school,standard,86
+Rosario + Vampire,26,2008,6.8,"['Comedy', 'Ecchi', 'Romance', 'Supernatural']",monster_harem,low,medium,teen,monsters_school_harem,monster_academy,standard,85
+Date A Live,46,2013,7.2,"['Comedy', 'Mecha', 'Romance', 'Sci-Fi']",dating_spirits,medium,medium,teen,spirits_dating_harem,futuristic_japan,standard,87
+Infinite Stratos,24,2011,6.8,"['Action', 'Comedy', 'Mecha', 'Harem']",mecha_harem,low,medium,teen,mecha_school_harem,mecha_academy,sleek,84
+The Testament of Sister New Devil,22,2015,6.6,"['Action', 'Comedy', 'Ecchi', 'Fantasy']",ecchi,low,medium,mature,demons_master_servant_ecchi,modern_school,standard,82
+High School DxD,49,2012,7.4,"['Comedy', 'Ecchi', 'Supernatural']",ecchi,low,medium,mature,demons_angels_harem,modern_school,standard,90
+Trinity Seven,12,2014,7.1,"['Action', 'Comedy', 'Ecchi', 'Fantasy', 'Harem']",magic_harem,low,medium,teen,magic_school_harem,magic_academy,standard,85
+Strike the Blood,48,2013,7.1,"['Action', 'Ecchi', 'Supernatural']",vampire_harem,medium,medium,teen,vampires_harem_action,demon_island_city,modern,83
+Chivalry of a Failed Knight,12,2015,7.4,"['Action', 'Fantasy', 'Romance']",underrated,medium,fast,teen,underdog_romance_magic,magic_knight_academy,modern,86
+The Asterisk War,24,2015,6.9,"['Action', 'Fantasy', 'Romance']",generic,medium,medium,teen,magic_tournaments_harem,magic_academy,modern,82
+Undefeated Bahamut Chronicle,12,2016,6.7,"['Action', 'Fantasy', 'Mecha', 'Harem']",mecha_harem,low,medium,teen,overpowered_mc_harem,mecha_academy,standard,78
+World Break: Aria of Curse for a Holy Swordsman,12,2015,6.4,"['Action', 'Fantasy', 'Harem']",overpowered,low,medium,teen,past_lives_op_mc,magic_school,standard,75
+In Another World With My Smartphone,12,2017,6.4,"['Adventure', 'Comedy', 'Fantasy', 'Isekai', 'Harem']",wish_fulfillment,low,slow,teen,isekai_smartphone_op_mc,fantasy_world,standard,80
+Death March to the Parallel World Rhapsody,12,2018,6.3,"['Adventure', 'Fantasy', 'Isekai', 'Harem']",chill_isekai,low,slow,teen,isekai_game_dev_op_mc,fantasy_world,standard,77
+How Not to Summon a Demon Lord,22,2018,6.9,"['Comedy', 'Ecchi', 'Fantasy', 'Isekai']",isekai_ecchi,low,medium,mature,isekai_demon_lord_slavery,fantasy_world,standard,84
+Arifureta: From Commonplace to World's Strongest,25,2019,6.7,"['Action', 'Adventure', 'Fantasy', 'Isekai']",edgy_isekai,medium,fast,mature,betrayal_revenge_op_mc,fantasy_world,standard,85
+The Master of Ragnarok & Blesser of Einherjar,12,2018,5.7,"['Fantasy', 'Isekai', 'Harem']",isekai,low,medium,teen,isekai_strategy_smartphone,viking_fantasy,standard,70
+Wise Man's Grandchild,12,2019,6.8,"['Action', 'Comedy', 'Fantasy', 'Isekai']",overpowered,low,medium,teen,isekai_magic_op_mc,fantasy_world,standard,81
+By the Grace of the Gods,24,2020,6.7,"['Fantasy', 'Slice of Life', 'Isekai']",healing,low,slow,family,isekai_slimes_healing,fantasy_world,soft,76
+Kuma Kuma Kuma Bear,24,2020,6.8,"['Adventure', 'Comedy', 'Fantasy', 'Isekai']",cute,low,slow,teen,isekai_bear_suit_op_mc,fantasy_world,cute,78
+BOFURI: I Don't Want to Get Hurt, so I'll Max Out My Defense.,24,2020,7.3,"['Action', 'Adventure', 'Comedy', 'Fantasy']",fun,low,medium,teen,vrmmorpg_op_mc_comedy,game_world,cute,83
+Suppose a Kid from the Last Dungeon Boonies moved to a starter town?,12,2021,6.6,"['Adventure', 'Comedy', 'Fantasy']",gag,low,medium,teen,overpowered_mc_comedy,fantasy_city,standard,77
+Combatants Will Be Dispatched!,12,2021,7.1,"['Adventure', 'Comedy', 'Fantasy', 'Sci-Fi']",konosuba_author,low,medium,teen_adult,comedy_conquest_isekai_adjacent,fantasy_planet,standard,80
+The World's Finest Assassin Gets Reincarnated in Another World as an Aristocrat,12,2021,7.5,"['Action', 'Fantasy', 'Isekai']",strategic_isekai,medium,medium,mature,assassination_reincarnation_nobility,fantasy_world,modern,84
+The Executioner and Her Way of Life,12,2022,7.1,"['Action', 'Adventure', 'Fantasy']",isekai_twist,medium,medium,mature,isekai_killing_yuri,fantasy_world,modern,79
+My Isekai Life: I Gained a Second Character Class and Became the Strongest Sage in the World!,12,2022,6.5,"['Action', 'Adventure', 'Fantasy', 'Isekai']",op_mc,low,medium,teen,isekai_op_mc_slimes,fantasy_world,standard,76
+Black Summoner,12,2022,6.9,"['Action', 'Fantasy', 'Isekai']",battle_junkie,low,medium,teen,isekai_summoner_op_mc,fantasy_world,standard,78
+Chillin' in My 30s after Getting Fired from the Demon King's Army,12,2023,6.6,"['Adventure', 'Fantasy', 'Slice of Life']",relaxed,low,slow,teen_adult,slice_of_life_demons_humans,fantasy_village,standard,74
+Campfire Cooking in Another World with My Absurd Skill,12,2023,7.6,"['Adventure', 'Comedy', 'Fantasy', 'Isekai']",food,low,slow,teen,isekai_cooking_op_pets,fantasy_world,soft,82
+The Eminence in Shadow,32,2022,8.1,"['Action', 'Comedy', 'Fantasy', 'Isekai']",delusional_mc,medium,medium,teen_adult,parody_op_mc_misunderstandings,fantasy_world,modern,88
+Mobile Suit Gundam: Iron-Blooded Orphans,50,2015,8.0,"['Action', 'Drama', 'Mecha', 'Sci-Fi']",gritty,high,medium,mature,child_soldiers_war_family,mars_space,detailed,83
+Mobile Suit Gundam: The 08th MS Team,12,1996,8.0,"['Adventure', 'Drama', 'Mecha', 'Romance', 'Sci-Fi']",grounded,medium,medium,mature,war_realism_romance,future_earth_jungle,classic_90s,78
+Mobile Suit Gundam Unicorn,7,2010,8.4,"['Action', 'Drama', 'Mecha', 'Sci-Fi']",cinematic,high,slow,mature,war_ideology_newtypes,space_opera,high_quality,81
+Mobile Suit Gundam Thunderbolt,8,2015,8.0,"['Action', 'Drama', 'Mecha', 'Sci-Fi']",jazzy,high,fast,mature,war_rivalry_jazz,space_war,dark_detailed,79
+Code Geass: Lelouch of the Rebellion R2,25,2008,8.9,"['Action', 'Drama', 'Mecha', 'Sci-Fi']",climactic,high,fast,mature,revolution_sacrifice_world_domination,alternate_history,detailed,94
+Aldnoah.Zero,24,2014,7.2,"['Action', 'Mecha', 'Sci-Fi']",strategic,high,medium,mature,war_strategy_ideology,earth_mars,sleek,82
+Knights of Sidonia,24,2014,7.7,"['Action', 'Mecha', 'Sci-Fi', 'Suspense']",space_horror,high,medium,mature,post_apocalyptic_space_survival,space_ship,cgi,79
+Valvrave the Liberator,24,2013,7.0,"['Action', 'Mecha', 'Sci-Fi']",over_the_top,medium,fast,mature,revolution_vampires_mecha,space_academy,sunrise,78
+Guilty Crown,22,2011,7.2,"['Action', 'Drama', 'Sci-Fi']",stylish,medium,fast,mature,revolution_voids_virus,futuristic_tokyo,beautiful,87
+DARLING in the FRANXX,24,2018,7.2,"['Action', 'Drama', 'Mecha', 'Romance', 'Sci-Fi']",controversial,medium,medium,mature,love_humanity_monsters,dystopian_future,trigger,90
+SSSS.Gridman,12,2018,7.3,"['Action', 'Mecha', 'Sci-Fi']",tokusatsu,high,medium,teen,kaiju_memory_heroes,modern_japan,trigger,80
+SSSS.Dynazenon,12,2021,7.5,"['Action', 'Mecha', 'Sci-Fi']",character_driven,high,medium,teen,kaiju_relationships_heroes,modern_japan,trigger,78
+Getter Robo Armageddon,13,1998,7.3,"['Action', 'Horror', 'Mecha', 'Sci-Fi']",apocalyptic,medium,fast,mature,evolution_horror_mecha,post_apocalyptic_earth,classic_ova,72
+Gunbuster,6,1988,8.1,"['Action', 'Drama', 'Mecha', 'Sci-Fi']",epic_finale,high,medium,mature,time_dilation_war_effort,space,classic_80s,76
+Diebuster (Gunbuster 2),6,2004,7.8,"['Action', 'Comedy', 'Mecha', 'Sci-Fi']",energetic,medium,fast,mature,coming_of_age_space_monsters,far_future,gainax,75
+The Big O,26,1999,7.5,"['Action', 'Mecha', 'Mystery', 'Sci-Fi']",noir,high,episodic,mature,amnesia_megadeus_negotiator,amnesiac_city,retro_futuristic,77
+Martian Successor Nadesico,26,1996,7.7,"['Action', 'Comedy', 'Mecha', 'Sci-Fi']",parody,medium,medium,teen,parody_space_opera_war,space,classic_90s,74
+RahXephon,26,2002,7.4,"['Action', 'Drama', 'Mecha', 'Mystery', 'Sci-Fi']",eva_like,very_high,slow,mature,music_reality_love,tokyo_jupiter,artistic,71
+Bokurano,24,2007,7.7,"['Drama', 'Mecha', 'Sci-Fi', 'Suspense']",depressing,high,slow,mature,sacrifice_despair_humanity,modern_japan,stark,75
+Fafner in the Azure,26,2004,7.2,"['Action', 'Drama', 'Mecha', 'Sci-Fi']",tragic,high,medium,mature,alien_invasion_despair,isolated_island,standard,70
+Majestic Prince,24,2013,7.4,"['Action', 'Comedy', 'Mecha', 'Sci-Fi']",team_comedy,medium,medium,teen,teamwork_genetics_mecha,space,sleek,72
+Knights of the Zodiac: Saint Seiya,114,1986,7.9,"['Action', 'Adventure', 'Fantasy']",mythological,low,medium,teen,constellations_saints_gods,modern_world_sanctuary,classic_80s,85
+Fist of the North Star,109,1984,7.8,"['Action', 'Drama']",hyper_violent,low,medium,mature,post_apocalypse_martial_arts,post_apocalyptic_wasteland,classic_80s,82
+City Hunter,140,1987,7.9,"['Action', 'Comedy', 'Mystery']",cool,low,episodic,mature,private_detective_action_comedy,80s_tokyo,retro,79
+Urusei Yatsura,195,1981,7.7,"['Comedy', 'Romance', 'Sci-Fi']",wacky,low,episodic,teen,alien_love_comedy,modern_japan,retro,78
+Maison Ikkoku,96,1986,8.12,"['Comedy', 'Drama', 'Romance', 'Slice of Life']",heartwarming,low,slow,mature,love_adulthood_patience,80s_boarding_house,retro,76
+Ranma 1/2,161,1989,7.7,"['Comedy', 'Action', 'Romance']",chaotic,low,episodic,teen,martial_arts_gender_bender_love,modern_japan,retro,88
+Patlabor: The Mobile Police,47,1989,7.5,"['Comedy', 'Mecha', 'Sci-Fi']",grounded,low,episodic,mature,mecha_police_work_slice_of_life,near_future_tokyo,realistic,70
+Dirty Pair,24,1985,7.3,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",destructive_duo,low,episodic,teen,sci_fi_consultants_comedy,space,classic_80s,71
+Captain Harlock,42,1978,7.7,"['Action', 'Adventure', 'Drama', 'Sci-Fi']",space_pirate,medium,medium,mature,freedom_rebellion_space_opera,space,leiji_matsumoto,75
+Galaxy Express 999,113,1978,7.8,"['Adventure', 'Drama', 'Sci-Fi']",journey,medium,episodic,mature,immortality_humanity_journey,space,leiji_matsumoto,74
+The Rose of Versailles,40,1979,8.3,"['Drama', 'Historical', 'Romance']",dramatic,high,slow,mature,revolution_gender_duty,18th_century_france,classic_shoujo,75
+Ashita no Joe,126,1970,8.31,"['Sports', 'Drama']",gritty,medium,medium,mature,boxing_poverty_rivalry,post_war_tokyo,retro,72
+Aim for the Ace!,26,1973,7.4,"['Sports', 'Drama']",classic_sports,low,medium,teen,tennis_hard_work_rivalry,70s_school,retro,68
+Heidi, Girl of the Alps,52,1974,7.8,"['Drama', 'Slice of Life']",classic,low,slow,family,childhood_nature_family,swiss_alps,world_masterpiece,70
+Anne of Green Gables,50,1979,7.9,"['Drama', 'Slice of Life']",classic,low,slow,family,imagination_family_growing_up,prince_edward_island,world_masterpiece,72
+Lupin the Third Part II,155,1977,8.0,"['Action', 'Adventure', 'Comedy']",gentleman_thief,low,episodic,teen_adult,heists_adventure_comedy,international,classic_70s,82
+Future Boy Conan,26,1978,8.1,"['Adventure', 'Drama', 'Sci-Fi']",optimistic,medium,medium,family,post_apocalypse_adventure_hope,post_apocalyptic_islands,miyazaki,76
+Voltes V,40,1977,7.6,"['Action', 'Mecha', 'Sci-Fi']",super_robot,low,episodic,family,rebellion_family_super_robot,earth_space,retro,70
+Doraemon,1787,1979,7.6,"['Comedy', 'Sci-Fi']",kids_classic,low,episodic,family,gadgets_friendship_childhood,modern_japan,classic,85
+Crayon Shin-chan,1150,1992,7.7,"['Comedy', 'Slice of Life']",crude_humor,low,episodic,family,family_comedy_childhood,modern_japan,simple,83
+Detective Conan (Case Closed),1100,1996,8.1,"['Adventure', 'Comedy', 'Mystery']",crime_solving,medium,episodic,teen,detective_mystery_crime,modern_japan,classic_90s,90
+Pokémon,1200,1997,7.4,"['Action', 'Adventure', 'Comedy', 'Fantasy']",adventure,low,episodic,family,pokemon_friendship_journey,pokemon_world,classic,98
+Digimon Adventure,54,1999,7.8,"['Action', 'Adventure', 'Comedy', 'Fantasy']",nostalgic,medium,medium,family,friendship_courage_digital_world,digital_world,classic_90s,92
+Yu-Gi-Oh! Duel Monsters,224,2000,7.5,"['Action', 'Adventure', 'Fantasy']",card_games,low,medium,teen,card_games_friendship_egypt,modern_world,classic,94
+Beyblade,51,2001,6.8,"['Action', 'Adventure', 'Sports']",spinning_tops,low,episodic,family,tournaments_friendship_bit_beasts,modern_world,classic,88
+Medabots,52,1999,7.3,"['Action', 'Adventure', 'Comedy', 'Sci-Fi']",robot_battles,low,episodic,family,robots_tournaments_friendship,near_future,classic_90s,80
+Zoids: Chaotic Century,67,1999,7.6,"['Action', 'Adventure', 'Mecha', 'Sci-Fi']",mecha_animals,medium,medium,teen,war_mecha_adventure,planet_zi,classic_cgi,77
+Initial D First Stage,26,1998,8.2,"['Action', 'Sports']",drifting,medium,medium,teen_adult,street_racing_cars_growth,gunma_japan,cgi_cars,85
+Wangan Midnight,26,2007,7.6,"['Action', 'Sports']",highway_racing,medium,medium,mature,street_racing_cursed_car,tokyo_highways,dark,78
+Capeta,52,2005,7.8,"['Sports']",karting,low,medium,teen,racing_father_son_dream,japan_racing,standard,73
+Major,154,2004,8.2,"['Sports', 'Comedy', 'Drama']",baseball_saga,medium,slow,teen,baseball_life_perseverance,japan_america,classic,80
+Cross Game,50,2009,8.4,"['Sports', 'Comedy', 'Drama', 'Romance']",emotional,medium,slow,teen,baseball_love_loss,modern_japan,adachi,81
+Touch,101,1985,8.1,"['Sports', 'Comedy', 'Drama', 'Romance']",classic_romance,low,slow,teen,baseball_romance_twins,80s_school,adachi,75
+H2,41,1995,7.9,"['Sports', 'Comedy', 'Drama', 'Romance']",baseball,low,slow,teen,baseball_friendship_romance,90s_school,adachi,73
+Ace of Diamond,126,2013,8.3,"['Sports', 'Comedy']",intense_baseball,medium,medium,teen,baseball_teamwork_pitching,elite_high_school,dynamic,86
+Big Windup!,38,2007,7.9,"['Sports', 'Comedy']",psychological_sports,medium,slow,teen,baseball_anxiety_teamwork,modern_school,simple,77
+One Outs,25,2008,8.2,"['Sports', 'Suspense']",psychological,high,medium,mature,baseball_psychological_warfare,pro_baseball_japan,stylized,79
+Eyeshield 21,145,2005,8.0,"['Sports', 'Comedy']",energetic,low,medium,teen,american_football_strategy_underdog,modern_school,dynamic,84
+The Prince of Tennis,178,2001,7.8,"['Sports']",super_tennis,low,medium,teen,tennis_rivalry_special_moves,modern_school,classic,87
+Baby Steps,50,2014,7.9,"['Sports', 'Romance']",strategic_tennis,medium,medium,teen,tennis_strategy_hard_work,modern_school,standard,80
+Chihayafuru,75,2011,8.3,"['Sports', 'Drama', 'Romance']",passionate,medium,medium,teen,karuta_passion_friendship,modern_school,beautiful,83
+Hikaru no Go,75,2001,8.1,"['Sports', 'Supernatural']",go,medium,medium,teen,go_ghost_rivalry,modern_japan,classic,79
+The Knight in the Area,37,2012,7.1,"['Sports']",soccer,low,medium,teen,soccer_brotherhood_trauma,modern_school,standard,72
+Whistle!,39,2002,7.3,"['Sports']",soccer,low,medium,teen,soccer_hard_work_team,modern_school,classic,70
+Giant Killing,26,2010,8.1,"['Sports']",coaching,high,medium,mature,soccer_management_strategy,pro_soccer_japan,realistic,75
+Days,24,2016,7.2,"['Sports']",hard_work,low,medium,teen,soccer_effort_friendship,modern_school,standard,76
+Welcome to the Ballroom,24,2017,7.9,"['Sports', 'Drama']",elegant,medium,medium,teen,ballroom_dancing_passion_rivalry,modern_japan,dynamic,81
+Yowamushi Pedal,112,2013,7.9,"['Sports', 'Comedy']",cycling,low,medium,teen,cycling_teamwork_otaku,modern_school,energetic,82
+Ahiru no Sora,50,2019,7.5,"['Sports', 'Drama']",underdog,medium,medium,teen,basketball_height_determination,modern_school,standard,80
+Hinomaru Sumo,24,2018,7.3,"['Sports']",sumo,low,medium,teen,sumo_underdog_friendship,modern_school,dynamic,74
+Megalobox 2: Nomad,13,2021,8.2,"['Sports', 'Sci-Fi', 'Drama']",somber,medium,slow,mature,redemption_immigrant_boxing,dystopian_future,gritty,80
+SK8 the Infinity,12,2021,8.0,"['Sports', 'Comedy']",exhilarating,low,fast,teen_adult,skateboarding_friendship_rivalry,okinawa,vibrant,88
+Tsurune,26,2018,7.6,"['Sports', 'Drama']",calm,low,slow,teen,archery_friendship_overcoming_trauma,modern_school,kyoto_animation,79
+Bakuten!!,12,2021,7.4,"['Sports', 'Drama']",gymnastics,low,medium,teen,rhythmic_gymnastics_teamwork,modern_school,clean,73
+Wave!!: Let's Go Surfing!!,12,2021,6.1,"['Sports']",surfing,low,medium,teen,surfing_friendship,coastal_japan,standard,65
+Salaryman's Club,12,2022,7.3,"['Sports', 'Slice of Life']",work_life,low,medium,adult,badminton_corporate_life,corporate_team,standard,71
+Number24,12,2020,6.4,"['Sports']",rugby,low,medium,teen,rugby_friendship_university,university,standard,66
+Skate-Leading Stars,12,2021,6.5,"['Sports']",skating,low,medium,teen,figure_skating_team_rivalry,high_school,standard,68
+Re-Main,12,2021,6.9,"['Sports']",water_polo,low,medium,teen,water_polo_amnesia_teamwork,high_school,standard,70
+Birdie Wing: Golf Girls' Story,25,2022,7.4,"['Sports']",over_the_top,low,fast,teen_adult,golf_mafia_rivalry,europe,colorful,72
+Harukana Receive,12,2018,6.8,"['Sports', 'Slice of Life', 'Ecchi']",beach_volleyball,low,medium,teen,beach_volleyball_friendship,okinawa,cute,73
+Iwa-Kakeru! -Sport Climbing Girls-,12,2020,6.2,"['Sports']",climbing,low,medium,teen,sport_climbing_friendship,high_school,standard,64
+Keijo!!!!!!!!,12,2016,7.0,"['Sports', 'Comedy', 'Ecchi']",absurd,low,fast,mature,ecchi_sport_parody,training_school,vibrant,78
+Uma Musume: Pretty Derby,26,2018,7.4,"['Sports', 'Slice of Life', 'Comedy']",energetic,low,medium,teen,horse_girls_racing_idols,racing_academy,cute,77
+Idoly Pride,12,2021,6.9,"['Music', 'Drama']",idol,low,medium,teen,idols_tragedy_ghost,talent_agency,standard,71
+Zombie Land Saga,24,2018,7.4,"['Comedy', 'Music', 'Supernatural']",idol,low,medium,teen,zombies_idols_comedy,modern_saga,colorful,83
+Love Live! School Idol Project,26,2013,7.2,"['Music', 'Slice of Life']",idol,low,medium,teen,school_idols_friendship,modern_school,cute,86
+The Idolmaster,25,2011,7.4,"['Music', 'Slice of Life', 'Comedy']",idol,low,medium,teen,idols_production_dreams,talent_agency,standard,81
+Macross Plus,4,1994,8.0,"['Action', 'Mecha', 'Romance', 'Sci-Fi', 'Music']",ai_idol,high,medium,mature,love_triangle_ai_mecha,space_colony,classic_90s,79
+Macross 7,49,1994,7.1,"['Action', 'Mecha', 'Sci-Fi', 'Music']",rock_music,medium,episodic,teen,music_pacifism_space_vampires,space,classic_90s,72
+Carole & Tuesday,24,2019,7.83,"['Drama', 'Music', 'Sci-Fi']",hopeful,low,slow,teen_adult,music_friendship_ai,future_mars,beautiful,81
+Beck: Mongolian Chop Squad,26,2004,8.3,"['Drama', 'Music', 'Slice of Life']",realistic,medium,medium,mature,rock_band_coming_of_age,modern_japan,gritty,79
+Kids on the Slope,12,2012,8.3,"['Drama', 'Music', 'Romance']",jazzy,medium,medium,teen_adult,jazz_friendship_love,60s_japan,retro_vibe,78
+Nodame Cantabile,45,2007,8.3,"['Comedy', 'Music', 'Romance', 'Slice of Life']",classical,medium,medium,teen_adult,classical_music_love_growth,music_conservatory,unique,82
+Tari Tari,13,2012,7.2,"['Music', 'Slice of Life']",choir,low,slow,teen,choir_friendship_high_school,modern_school,beautiful,75
+Sound! Euphonium,26,2015,8.1,"['Drama', 'Music', 'Slice of Life']",band,medium,medium,teen,concert_band_dedication_friendship,modern_school,kyoto_animation,84
+Liz and the Blue Bird,1,2018,8.2,"['Drama', 'Music']",intimate,medium,slow,teen,friendship_fairytale_music,modern_school,kyoto_animation,81
+Forest of Piano,24,2018,7.2,"['Drama', 'Music']",piano,medium,medium,teen,piano_talent_rivalry,international,cgi_piano,74
+Paripi Koumei (Ya Boy Kongming!),12,2022,8.1,"['Comedy', 'Music', 'Isekai']",upbeat,low,medium,teen_adult,reincarnation_music_strategy,modern_tokyo,vibrant,85
+Healer Girl,12,2022,6.8,"['Music', 'Fantasy', 'Slice of Life']",healing,low,slow,family,healing_music_medical,fantasy_world,soft,69
+Vivy: Fluorite Eye's Song,13,2021,8.37,"['Sci-Fi', 'Action', 'Music']",thrilling,high,fast,mature,ai_humanity_time_travel,future_earth,sleek,84
+Listeners,12,2020,5.6,"['Action', 'Mecha', 'Music', 'Sci-Fi']",music_mecha,medium,medium,teen,rock_music_mecha_journey,post_apocalyptic,standard,62
+Selection Project,13,2021,6.7,"['Music', 'Drama']",idol_survival,low,medium,teen,idol_competition_reality_show,idol_dormitory,standard,68
+Fuuka,12,2017,6.5,"['Drama', 'Music', 'Romance']",controversial,medium,medium,teen,band_romance_tragedy,modern_school,standard,76
+Anonymous Noise,12,2017,6.7,"['Music', 'Romance', 'Drama']",love_triangle,low,medium,teen,music_unrequited_love,modern_school,shoujo,75
+Interviews with Monster Girls,12,2017,7.5,"['Comedy', 'Slice of Life', 'Supernatural']",wholesome,low,slow,teen,demi_humans_school_life_acceptance,modern_school,cute,82
+Restaurant to Another World,24,2017,7.4,"['Fantasy', 'Slice of Life']",delicious,low,episodic,family,food_fantasy_isekai_door,fantasy_world_restaurant,soft,81
+Isekai Izakaya "Nobu",24,2018,7.2,"['Fantasy', 'Slice of Life']",food,low,episodic,family,food_fantasy_japanese_pub,fantasy_world_izakaya,simple,76
+Kakuriyo: Bed & Breakfast for Spirits,26,2018,7.4,"['Supernatural', 'Romance', 'Slice of Life']",food,low,medium,teen,spirits_cooking_romance,spirit_realm,shoujo,79
+Today's Menu for the Emiya Family,13,2018,7.8,"['Slice of Life', 'Comedy', 'Fantasy']",cozy_fate,low,slow,family,cooking_fate_characters_peaceful,modern_fuyuki,soft,80
+Flying Witch,12,2016,7.6,"['Slice of Life', 'Supernatural']",relaxing,low,very_slow,family,witch_rural_life_family,modern_aomori,soft,79
+Is the Order a Rabbit?,36,2014,7.4,"['Slice of Life', 'Comedy']",cute,low,very_slow,teen,cafe_cute_girls_friendship,european_town,moe,80
+Gochuumon wa Usagi Desu ka? (Is the order a rabbit?),36,2014,7.4,"['Slice of Life', 'Comedy']",cute,low,very_slow,teen,cafe_cute_girls_friendship,european_town,moe,80
+Kiniro Mosaic,24,2013,7.3,"['Slice of Life', 'Comedy']",cute,low,very_slow,teen,england_japan_friendship_school,modern_school,moe,78
+Yuyushiki,12,2013,7.1,"['Slice of Life', 'Comedy']",cute,low,very_slow,teen,data_processing_club_comedy,modern_school,moe,74
+Gabriel DropOut,12,2017,7.2,"['Comedy', 'Slice of Life', 'Supernatural']",slacker,low,medium,teen,angels_demons_slacking_school,modern_school,cute,83
+Himouto! Umaru-chan,24,2015,7.0,"['Comedy', 'Slice of Life']",slacker,low,medium,teen,otaku_slacker_sibling,modern_apartment,cute,85
+Wataten!: An Angel Flew Down to Me,12,2019,6.9,"['Slice of Life', 'Comedy']",loli,low,slow,teen_adult,cute_girls_lolicon_undertones,modern_japan,cute,77
+Mitsuboshi Colors,12,2018,6.9,"['Slice of Life', 'Comedy']",kids,low,episodic,family,kids_protecting_town_comedy,ueno_tokyo,colorful,73
+Strawberry Marshmallow,12,2005,7.3,"['Slice of Life', 'Comedy']",cute,low,slow,teen,cute_kids_comedy_older_sister,modern_japan,moe,75
+Minami-ke,52,2007,7.5,"['Slice of Life', 'Comedy']",three_sisters,low,medium,teen,sisters_family_comedy_school,modern_japan,varies,76
+Hidamari Sketch,50,2007,7.6,"['Slice of Life', 'Comedy']",art_school,low,slow,teen,art_school_friendship_daily_life,art_school_dorm,shaft,74
+The Helpful Fox Senko-san,12,2019,7.2,"['Slice of Life', 'Comedy', 'Supernatural']",fluffy,low,slow,teen_adult,pampering_fox_demigod_healing,modern_apartment,soft,82
+Sleepy Princess in the Demon Castle,12,2020,7.6,"['Slice of Life', 'Comedy', 'Fantasy']",sleep,low,episodic,teen,kidnapped_princess_sleep_comedy,demon_castle,cute,80
+Dragon Goes House-Hunting,12,2021,6.5,"['Slice of Life', 'Comedy', 'Fantasy']",house_hunting,low,episodic,teen,weak_dragon_real_estate,fantasy_world,standard,72
+The Great Jahy Will Not Be Defeated!,20,2021,7.0,"['Slice of Life', 'Comedy', 'Supernatural']",jahy-sama,low,medium,teen,demon_lord_restoration_poverty,modern_japan,cute,78
+Jashin-chan Dropkick (Dropkick on My Devil!),35,2018,6.8,"['Slice of Life', 'Comedy', 'Supernatural']",slapstick,low,episodic,teen,demon_summoning_violent_comedy,modern_japan,cute,75
+TONIKAWA: Over The Moon For You,24,2020,7.8,"['Comedy', 'Romance', 'Slice of Life']",wholesome_marriage,low,medium,teen_adult,marriage_love_mystery,modern_japan,cute,89
+The Angel Next Door Spoils Me Rotten,12,2023,7.5,"['Romance', 'Slice of Life']",diabetic,low,slow,teen,neighbors_romance_pampering,modern_school,soft,85
+The Duke of Death and His Maid,24,2021,7.5,"['Comedy', 'Romance', 'Supernatural']",touch,low,medium,teen_adult,curse_romance_touch,fantasy_mansion,cgi,81
+Science Fell in Love, So I Tried to Prove It,24,2020,7.3,"['Comedy', 'Romance']",scientific,medium,medium,teen_adult,science_love_experiments,university_lab,standard,84
+Komi Can't Communicate,24,2021,7.9,"['Comedy', 'Slice of Life']",communication,low,slow,teen,social_anxiety_friendship_100_friends,modern_school,beautiful,90
+Aharen-san wa Hakarenai,12,2022,7.5,"['Comedy', 'Slice of Life']",indecipherable,low,slow,teen,distance_friendship_comedy,modern_school,cute,82
+Shikimori's Not Just a Cutie,12,2022,7.0,"['Comedy', 'Romance', 'Slice of Life']",cool_girlfriend,low,medium,teen,role_reversal_romance,modern_school,vibrant,83
+Call of the Night,13,2022,7.8,"['Romance', 'Supernatural']",night,medium,slow,teen_adult,insomnia_vampires_nightlife,modern_city_at_night,stylish,86
+The Way of the Househusband,15,2021,7.2,"['Comedy', 'Slice of Life']",ex_yakuza,low,very_fast,teen_adult,yakuza_househusband_comedy,modern_japan,motion_comic,85
+Thermae Romae Novae,11,2022,7.0,"['Comedy', 'Historical', 'Slice of Life']",bathhouse,low,episodic,teen_adult,ancient_rome_japanese_baths,ancient_rome_modern_japan,standard,74
+Kotaro Lives Alone,10,2022,8.2,"['Comedy', 'Drama', 'Slice of Life']",heartbreaking,medium,slow,mature,child_neglect_community_found_family,modern_apartment,simple,83
+Ranking of Kings,23,2021,8.8,"['Fantasy', 'Adventure']",inspiring,medium,medium,family,strength_kindness_prejudice,fairytale_fantasy,picture_book,89
+ODDTAXI,13,2021,8.69,"['Mystery']",dialogue_driven,high,slow,mature,mystery_secrets_modern_life,anthropomorphic_tokyo,simple,82
+Vivy: Fluorite Eye's Song,13,2021,8.37,"['Sci-Fi', 'Action', 'Music']",thrilling,high,fast,mature,ai_humanity_time_travel,future_earth,sleek,84
+To Your Eternity,40,2021,8.41,"['Drama', 'Fantasy', 'Supernatural']",emotional,medium,slow,mature,immortality_humanity_loss,various_fantasy,clean,86
+Wonder Egg Priority,12,2021,7.8,"['Drama', 'Fantasy', 'Suspense']",symbolic,very_high,medium,mature,suicide_trauma_friendship,dream_world,vibrant,83
+Horimiya: The Missing Pieces,13,2023,7.9,"['Romance', 'Slice of Life', 'Comedy']",more_chapters,low,episodic,teen,side_stories_high_school_love,modern_school,clean,90
+My Happy Marriage,12,2023,7.7,"['Romance', 'Supernatural', 'Historical']",romantic,medium,medium,teen_adult,arranged_marriage_supernatural_powers,meiji_era_fantasy,beautiful,85
+Zom 100: Bucket List of the Dead,12,2023,7.7,"['Action', 'Comedy', 'Horror']",liberating,low,fast,mature,zombies_freedom_adulthood,post_apocalyptic_tokyo,colorful,88
+Hell's Paradise,13,2023,7.9,"['Action', 'Adventure', 'Fantasy']",dark,medium,fast,mature,immortality_redemption_survival,mythical_island,vibrant,89
+The Apothecary Diaries,24,2023,8.7,"['Drama', 'Mystery', 'Historical']",deductive,medium,medium,mature,medicine_poison_mystery,ancient_china_inspired,beautiful,91
+Undead Unluck,24,2023,7.8,"['Action', 'Comedy', 'Supernatural']",chaotic,medium,fast,teen,negators_unluck_comedy,modern_world,dynamic,84
+Pluto,8,2023,8.8,"['Sci-Fi', 'Mystery', 'Suspense']",thought_provoking,very_high,slow,mature,robot_rights_grief_war,futuristic_world,modern_classic,88
+Scott Pilgrim Takes Off,8,2023,8.2,"['Action', 'Comedy', 'Romance']",reimagined,medium,fast,mature,love_video_games_reconciliation,toronto,science_saru,86
+Onmyoji,13,2023,6.8,"['Action', 'Historical', 'Supernatural']",classic_tale,medium,medium,mature,demons_onmyoji_friendship,heian_japan,stylized_cgi,70
+Good Night World,12,2023,7.1,"['Sci-Fi', 'Action', 'Drama']",dysfunctional,high,medium,mature,family_vrmmorpg_reality,virtual_world_real_world,standard_cgi,73
+Delicious in Dungeon,24,2024,8.5,"['Fantasy', 'Comedy', 'Adventure']",dungeon_cooking,low,medium,teen_adult,dungeon_crawl_cooking_monsters,fantasy_dungeon,trigger,89
+Solo Leveling,12,2024,8.4,"['Action', 'Fantasy']",power_fantasy,low,fast,teen,hunters_leveling_up_power,modern_korea,sleek,93
+A Sign of Affection,12,2024,8.0,"['Romance', 'Slice of Life']",sweet,low,slow,teen_adult,deafness_love_communication,modern_university,soft,86
+The Dangers in My Heart,25,2023,8.3,"['Comedy', 'Romance', 'Slice of Life']",wholesome,low,medium,teen,middle_school_romance_growth,modern_school,standard,87
+Brave Bang Bravern!,12,2024,7.2,"['Action', 'Mecha', 'Comedy']",unexpected,medium,fast,teen_adult,super_robot_parody_war,modern_military,obari,75
+Metallic Rouge,13,2024,6.7,"['Action', 'Sci-Fi']",noir_sci_fi,medium,medium,mature,androids_identity_murder,future_mars,stylish,72
+Ishura,12,2024,6.9,"['Action', 'Fantasy']",tournament,high,fast,mature,battle_royale_overpowered_chars,fantasy_world,dark,76
+Sasaki and Peeps,12,2024,6.8,"['Fantasy', 'Slice of Life', 'Comedy', 'Isekai']",multi_genre,medium,medium,mature,isekai_magic_corporate_life,modern_japan_fantasy_world,standard,74
+Mashle: Magic and Muscles,24,2023,7.7,"['Action', 'Comedy', 'Fantasy']",parody,low,fast,teen,muscles_vs_magic_parody,magic_academy,standard,88
+Rurouni Kenshin (2023),24,2023,7.6,"['Action', 'Adventure', 'Romance']",faithful,medium,medium,teen_adult,remake_samurai_redemption,meiji_era_japan,modern,82
+Trigun Stampede,12,2023,7.7,"['Sci-Fi', 'Action', 'Adventure']",reimagined,medium,fast,mature,brotherhood_humanity_past,space_western,modern_cgi,83
+Urusei Yatsura (2022),46,2022,7.5,"['Comedy', 'Romance', 'Sci-Fi']",modernized,low,episodic,teen,remake_alien_love_comedy,modern_japan,vibrant,80
+Tokyo Revengers,37,2021,7.8,"['Action', 'Drama', 'Supernatural']",time_leap,medium,medium,teen,gangs_time_travel_redemption,modern_tokyo,stylized,91
+Blue Period,12,2021,8.0,"['Drama', 'Slice of Life']",artistic,medium,slow,teen_adult,art_passion_self_discovery,art_school,realistic,83
+Link Click,23,2021,8.6,"['Drama', 'Supernatural', 'Suspense']",emotional,high,episodic,mature,time_travel_photography_consequences,modern_china,clean,87
+Heaven Official's Blessing,23,2020,8.3,"['Adventure', 'Fantasy', 'Romance']",epic_romance,medium,slow,teen_adult,gods_ghosts_love,ancient_china_inspired,beautiful,85
+Mo Dao Zu Shi (Grandmaster of Demonic Cultivation),35,2018,8.5,"['Action', 'Adventure', 'Supernatural', 'Romance']",mystery,high,medium,mature,necromancy_reincarnation_mystery,ancient_china_inspired,stylized,86
+Scissor Seven,30,2018,8.4,"['Action', 'Comedy']",assassin,low,fast,teen_adult,assassin_comedy_amnesia,modern_china,simple_fluid,82
+The Daily Life of the Immortal King,36,2020,7.3,"['Action', 'Comedy', 'Fantasy', 'Slice of Life']",overpowered,low,medium,teen,op_mc_school_life,modern_magic_school,standard,83
+The King's Avatar,36,2017,7.9,"['Action', 'Adventure']",esports,medium,medium,teen_adult,pro_gaming_comeback,modern_china_esports,cgi_hybrid,84
+Cagaster of an Insect Cage,12,2020,6.6,"['Action', 'Sci-Fi', 'Horror']",post_apocalyptic,medium,medium,mature,giant_insects_survival,post_apocalyptic,cgi,70
+Dorohedoro,12,2020,8.0,"['Action', 'Comedy', 'Fantasy', 'Horror']",chaotic,high,medium,mature,amnesia_magic_dystopia,grimy_city,unique_cgi,84
+Japan Sinks: 2020,10,2020,6.5,"['Drama', 'Sci-Fi']",disaster,medium,fast,mature,natural_disaster_survival_family,modern_japan,yuasa,73
+B: The Beginning,18,2018,7.1,"['Action', 'Mystery', 'Supernatural', 'Suspense']",crime_thriller,high,medium,mature,serial_killer_supernatural,futuristic_nation,sleek,78
+Sirius the Jaeger,12,2018,6.9,"['Action', 'Supernatural', 'Historical']",vampire_hunter,medium,medium,mature,vampires_werewolves_revenge,1930s_japan,standard,76
+Kabaneri of the Iron Fortress,12,2016,7.2,"['Action', 'Fantasy', 'Horror']",steampunk_zombies,medium,fast,mature,zombies_survival_steampunk,post_apocalyptic_japan,wit_studio,85
+God of High School,13,2020,7.1,"['Action', 'Adventure', 'Fantasy']",tournament,low,very_fast,teen,martial_arts_tournament_gods,modern_korea,dynamic,87
+Tower of God,13,2020,7.6,"['Action', 'Adventure', 'Fantasy']",mysterious_tower,medium,medium,teen,climbing_tower_mystery_adventure,the_tower,stylized,89
+Noblesse,13,2020,6.4,"['Action', 'Supernatural']",vampire,low,medium,teen,noble_vampire_school_life,modern_korea,standard,81
+Blade Runner: Black Lotus,13,2021,6.5,"['Action', 'Sci-Fi', 'Suspense']",cyberpunk,medium,medium,mature,replicants_memory_revenge,futuristic_los_angeles,cgi,69
+Takt Op. Destiny,12,2021,6.9,"['Action', 'Fantasy', 'Music']",classical_music,medium,medium,teen_adult,music_fighting_monsters,future_america,beautiful,78
+The World Ends with You: The Animation,12,2021,6.2,"['Action', 'Supernatural']",reapers_game,medium,fast,teen,survival_game_tokyo_afterlife,shibuya,stylized,75
+Dragon's Dogma,7,2020,5.9,"['Action', 'Fantasy']",dark_fantasy,low,medium,mature,revenge_dragon_seven_sins,medieval_fantasy,cgi,68
+Yasuke,6,2021,6.0,"['Action', 'Fantasy', 'Historical']",afro_samurai,medium,fast,mature,black_samurai_magic_mecha,alternate_feudal_japan,mappa,74
+Super Crooks,13,2021,7.2,"['Action', 'Comedy']",heist,low,medium,mature,supervillains_heist_comedy,modern_world,bones,76
+Spriggan,6,2022,6.8,"['Action', 'Sci-Fi']",ancient_aliens,medium,episodic,mature,ancient_artifacts_secret_agents,international,modern_cgi,73
+Exception,8,2022,5.7,"['Sci-Fi', 'Horror', 'Suspense']",space_horror,medium,slow,mature,3d_printing_humanity_space,space_ship,unique_cgi,64
+Vampire in the Garden,5,2022,7.0,"['Action', 'Drama', 'Fantasy']",vampire_human,medium,medium,mature,war_music_coexistence,post_apocalyptic,wit_studio,71
+Romantic Killer,12,2022,7.8,"['Comedy', 'Romance']",anti_romance,low,fast,teen,parody_romance_tropes_gaming,modern_school,colorful,83
+Bastard!! Heavy Metal, Dark Fantasy,24,2022,6.9,"['Action', 'Adventure', 'Comedy', 'Fantasy', 'Ecchi']",80s_metal,low,medium,mature,dark_schneider_magic_ecchi,fantasy_world,modernized_retro,77
+Lookism,8,2022,7.7,"['Action', 'Drama', 'Supernatural']",body_swapping,medium,medium,teen,bullying_appearance_duality,modern_korea,clean,85
+Make My Day,8,2023,5.1,"['Sci-Fi', 'Horror', 'Mecha']",space_prison,low,medium,mature,prison_break_aliens,frozen_planet,cgi,60
+Junji Ito Maniac: Japanese Tales of the Macabre,12,2023,6.2,"['Horror']",anthology,low,episodic,mature,junji_ito_horror_anthology,various,junji_ito,75
+The Orbital Children,6,2022,7.1,"['Sci-Fi', 'Adventure']",space_kids,medium,medium,family,ai_space_disaster_kids,space_station,iso_mitsuo,70
+My Daemon,13,2023,6.9,"['Sci-Fi', 'Adventure']",kid_and_demon,low,medium,family,post_apocalypse_friendship_nuclear,post_apocalyptic_japan,cgi,68
+Akuma Kun,12,2023,7.0,"['Supernatural', 'Mystery']",demon_boy,low,episodic,teen,demon_detective_mystery,modern_japan,modernized_retro,69
+Carol & the End of the World,10,2023,7.5,"['Comedy', 'Drama', 'Sci-Fi', 'Slice of Life']",existential,low,slow,mature,apocalypse_mundanity_meaning,modern_earth,western_animation,73
+Blue Eye Samurai,8,2023,8.8,"['Action', 'Adventure', 'Drama', 'Historical']",revenge,medium,medium,mature,revenge_identity_edo_japan,edo_period_japan,stunning_cgi,89
