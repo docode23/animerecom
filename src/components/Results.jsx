@@ -52,111 +52,81 @@ const Results = () => {
         setLoading(false)
       } catch (err) {
         console.error('Error loading recommendations:', err)
-        setError(err.message)
-        setLoading(false)
+        setError(err.message);
+        setLoading(false);
       }
-    }
+    };
     
-    loadRecommendations()
-  }, [searchParams])
+    loadRecommendations();
+  }, [searchParams]);
 
-  // Fetch AniList data with proper rate limiting and error handling
+  // Fetch AniList data in parallel batches for performance
   const fetchAniListDataForAll = async (animeList) => {
-    const results = []
-    console.log(`Fetching AniList data for ${animeList.length} anime...`)
-    
-    for (let i = 0; i < animeList.length; i++) {
-      const anime = animeList[i]
-      try {
-        // Clean the title for better search results
-        const cleanTitle = anime.title
-          .replace(/[^\w\s:!-]/g, '')
-          .replace(/\s+/g, ' ')
-          .trim()
-        
-        console.log(`Fetching ${i + 1}/${animeList.length}: ${cleanTitle}`)
-        
-        const query = `
-          query ($search: String) {
-            Media(search: $search, type: ANIME) {
-              id
-              title {
-                romaji
-                english
-                native
+    console.log(`Fetching AniList data for ${animeList.length} anime...`);
+    const allResults = [];
+    const CHUNK_SIZE = 5; // Fetch 5 anime at a time
+
+    for (let i = 0; i < animeList.length; i += CHUNK_SIZE) {
+      const chunk = animeList.slice(i, i + CHUNK_SIZE);
+      console.log(`Fetching batch ${i / CHUNK_SIZE + 1}...`);
+
+      const chunkPromises = chunk.map(async (anime) => {
+        try {
+          const cleanTitle = anime.title.replace(/[^\w\s:!-]/g, '').replace(/\s+/g, ' ').trim();
+          
+          const query = `
+            query ($search: String) {
+              Media(search: $search, type: ANIME) {
+                id, title { romaji, english }, coverImage { large }, description(asHtml: false), averageScore, genres, studios { nodes { name } }, startDate { year }, episodes, status
               }
-              coverImage {
-                large
-                medium
-              }
-              description(asHtml: false)
-              averageScore
-              genres
-              studios {
-                nodes {
-                  name
-                }
-              }
-              startDate {
-                year
-              }
-              episodes
-              status
             }
+          `;
+
+          const response = await fetch('https://graphql.anilist.co', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json', 'Accept': 'application/json' },
+            body: JSON.stringify({ query, variables: { search: cleanTitle } })
+          });
+
+          if (!response.ok) {
+            console.warn(`HTTP ${response.status} for \"${anime.title}\"`);
+            return anime; // Return original anime on failure
           }
-        `
-        
-        const response = await fetch('https://graphql.anilist.co', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json',
-          },
-          body: JSON.stringify({
-            query,
-            variables: { search: cleanTitle }
-          })
-        })
-        
-        if (!response.ok) {
-          console.warn(`HTTP ${response.status} for "${anime.title}"`)
-          results.push(anime)
-          continue
+
+          const data = await response.json();
+
+          if (data.errors) {
+            console.warn(`AniList API errors for \"${anime.title}\":`, data.errors);
+            return anime;
+          }
+
+          if (data.data?.Media) {
+            console.log(`✓ Found: ${anime.title}`);
+            return { ...anime, anilistData: data.data.Media };
+          } else {
+            console.warn(`✗ Not Found: ${anime.title}`);
+            return anime;
+          }
+        } catch (error) {
+          console.error(`✗ Fetch Error for \"${anime.title}\":`, error.message);
+          return anime;
         }
-        
-        const data = await response.json()
-        
-        if (data.errors) {
-          console.warn(`AniList API errors for "${anime.title}":`, data.errors)
-          results.push(anime)
-          continue
-        }
-        
-        if (data.data?.Media) {
-          console.log(`✓ Found AniList data for: ${anime.title}`)
-          results.push({
-            ...anime,
-            anilistData: data.data.Media
-          })
-        } else {
-          console.warn(`✗ No AniList data found for: ${anime.title}`)
-          results.push(anime)
-        }
-        
-      } catch (error) {
-        console.error(`✗ Failed to fetch AniList data for "${anime.title}":`, error.message)
-        results.push(anime)
-      }
-      
-      // Rate limiting: 500ms delay between requests to avoid hitting limits
-      if (i < animeList.length - 1) {
-        await new Promise(resolve => setTimeout(resolve, 500))
+      });
+
+      // Wait for the current batch to complete
+      const batchResults = await Promise.all(chunkPromises);
+      allResults.push(...batchResults);
+
+      // Wait before processing the next batch to respect rate limits
+      if (i + CHUNK_SIZE < animeList.length) {
+        console.log('Waiting 1 second before next batch...');
+        await new Promise(resolve => setTimeout(resolve, 1000));
       }
     }
-    
-    console.log(`Completed AniList fetching. ${results.filter(r => r.anilistData).length}/${results.length} successful`)
-    return results
-  }
+
+    console.log(`Completed AniList fetching. ${allResults.filter(r => r.anilistData).length}/${allResults.length} successful`);
+    return allResults;
+  };
 
   if (loading) {
     return (

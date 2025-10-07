@@ -1,74 +1,78 @@
 // Recommendation algorithm for anime matching
 
 export const computeSimilarity = (userPrefs, anime) => {
-  let score = 0;
+  let preferenceScore = 0;
   let matchCount = 0;
-  
-  // Genre matching (highest weight - 40 points)
+
+  // Define the maximum possible score from preferences
+  const MAX_PREFERENCE_SCORE = 50 + 35 + 25 + 15 + 10; // 135
+
+  // --- Preference Matching --- 
+
+  // 1. Genre matching (very high weight - 50 points)
   if (userPrefs.genres && userPrefs.genres.length > 0 && anime.features.genres) {
     const animeGenres = Array.isArray(anime.features.genres) ? anime.features.genres : [];
-    const genreOverlap = animeGenres.filter(g => 
-      userPrefs.genres.includes(g)
-    ).length;
+    const genreOverlap = animeGenres.filter(g => userPrefs.genres.includes(g)).length;
     if (genreOverlap > 0) {
-      const genreScore = (genreOverlap / userPrefs.genres.length) * 40;
-      score += genreScore;
+      // Score is proportional to how many selected genres overlap
+      const genreScore = (genreOverlap / userPrefs.genres.length) * 50;
+      preferenceScore += genreScore;
       matchCount++;
     }
   }
-  
-  // Mood matching (high weight - 30 points)
+
+  // 2. Mood matching (high weight - 35 points)
   if (userPrefs.mood && anime.features.mood) {
-    // Handle mood as string or array
     let animeMoods = anime.features.mood;
     if (typeof animeMoods === 'string') {
-      try {
-        animeMoods = JSON.parse(animeMoods);
-      } catch (e) {
-        animeMoods = [animeMoods];
-      }
+      try { animeMoods = JSON.parse(animeMoods); } catch (e) { animeMoods = [animeMoods]; }
     }
     if (Array.isArray(animeMoods) && animeMoods.includes(userPrefs.mood)) {
-      score += 30;
+      preferenceScore += 35;
       matchCount++;
     }
   }
-  
-  // Pacing matching (medium weight - 20 points)
+
+  // 3. Pacing matching (medium weight - 25 points)
   if (userPrefs.pacing && anime.features.pacing === userPrefs.pacing) {
-    score += 20;
+    preferenceScore += 25;
     matchCount++;
   }
-  
-  // Target audience matching (medium weight - 15 points)
+
+  // 4. Target audience matching (medium weight - 15 points)
   if (userPrefs.target_audience && anime.features.target_audience === userPrefs.target_audience) {
-    score += 15;
+    preferenceScore += 15;
     matchCount++;
   }
-  
-  // Complexity matching (low weight - 10 points)
+
+  // 5. Complexity matching (low weight - 10 points)
   if (userPrefs.complexity && anime.features.complexity === userPrefs.complexity) {
-    score += 10;
+    preferenceScore += 10;
     matchCount++;
   }
-  
-  // Quality bonus (max 10 points)
-  if (anime.numerics && anime.numerics.rating) {
-    score += anime.numerics.rating * 10;
-  }
-  
-  // Popularity bonus (max 5 points)
-  if (anime.numerics && anime.numerics.popularity) {
-    score += anime.numerics.popularity * 5;
-  }
-  
-  // Penalize if no preferences match
+
+  // If no preferences match at all, heavily penalize the score.
   if (matchCount === 0) {
-    score *= 0.1;
+    return 0;
   }
-  
-  // Return score as percentage (0-100)
-  return Math.min(Math.round(score), 100);
+
+  // --- Normalization and Bonuses --- 
+
+  // Normalize preference score to be out of 85 (leaving 15 for bonuses)
+  const normalizedPreferenceScore = (preferenceScore / MAX_PREFERENCE_SCORE) * 85;
+
+  let finalScore = normalizedPreferenceScore;
+
+  // Add small bonuses for quality and popularity (max 15 points total)
+  if (anime.numerics) {
+    // Quality bonus (max 10 points)
+    finalScore += (anime.numerics.rating || 0) * 10;
+    // Popularity bonus (max 5 points)
+    finalScore += (anime.numerics.popularity || 0) * 5;
+  }
+
+  // Final score is capped at 100
+  return Math.min(Math.round(finalScore), 100);
 };
 
 export const getRecommendations = (userPrefs, animeDatabase, limit = 15) => {
@@ -85,20 +89,14 @@ export const getRecommendations = (userPrefs, animeDatabase, limit = 15) => {
   // Sort by score descending
   scoredAnime.sort((a, b) => b.similarity_score - a.similarity_score);
   
-  // Add some randomization to break ties and ensure variety
-  const randomizedAnime = scoredAnime.map(anime => ({
-    ...anime,
-    similarity_score: anime.similarity_score + (Math.random() * 2) // Add 0-2 random points
-  })).sort((a, b) => b.similarity_score - a.similarity_score);
-  
   // Apply strict diversity filter
   const diverseResults = [];
   const titlesSeen = new Set();
   const genreCounts = {};
   const settingCounts = {};
   const studioApprox = {}; // Approximate studio grouping by year/genre
-  
-  for (const anime of randomizedAnime) {
+
+  for (const anime of scoredAnime) {
     // Skip if we have enough results
     if (diverseResults.length >= limit) break;
     
