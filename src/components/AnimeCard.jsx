@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { trackRecommendationView, trackRecommendationClick } from '../utils/analytics'
 
 const AnimeCard = ({ anime, rank }) => {
   const [showDetails, setShowDetails] = useState(false)
@@ -143,6 +144,7 @@ const AnimeCard = ({ anime, rank }) => {
             target="_blank"
             rel="noopener noreferrer"
             className="w-full retro-button bg-retro-brown hover:bg-retro-orange text-center block text-xs py-2"
+            onClick={() => trackRecommendationClick(anime.title, rank)}
           >
             VIEW ON ANILIST →
           </a>
@@ -152,6 +154,7 @@ const AnimeCard = ({ anime, rank }) => {
             target="_blank"
             rel="noopener noreferrer"
             className="w-full retro-button bg-retro-brown hover:bg-retro-orange text-center block text-xs py-2"
+            onClick={() => trackRecommendationClick(anime.title, rank)}
           >
             SEARCH ON ANILIST →
           </a>

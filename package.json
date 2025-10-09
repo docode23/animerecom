@@ -5,8 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/build-index.js && vite build",
-    "preview": "vite preview"
+    "build": "node scripts/build-index.js && node scripts/generate-sitemap.js && vite build",
+    "build:seo": "node scripts/generate-sitemap.js",
+    "preview": "vite preview",
+    "analyze": "vite build --mode analyze"
   },
   "packageManager": "pnpm@8.0.0",
   "dependencies": {

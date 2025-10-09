@@ -3,6 +3,8 @@ import { useSearchParams, Link } from 'react-router-dom'
 import { getRecommendations, formatAnimeForDisplay } from '../utils/recommendations'
 import AnimeCard from './AnimeCard'
 import DonationButton from './DonationButton'
+import SEO from './SEO'
+import { trackRetakeQuiz, trackSearchError } from '../utils/analytics'
 
 const Results = () => {
   const [searchParams] = useSearchParams()
@@ -52,6 +54,7 @@ const Results = () => {
         setLoading(false)
       } catch (err) {
         console.error('Error loading recommendations:', err)
+        trackSearchError(err.message)
         setError(err.message);
         setLoading(false);
       }
@@ -166,7 +169,7 @@ const Results = () => {
           <p className="text-vintage-ink mb-4">
             We couldn't find any anime matching your preferences. Try adjusting your selections.
           </p>
-          <Link to="/" className="retro-button inline-block">
+          <Link to="/" className="retro-button inline-block" onClick={() => trackRetakeQuiz()}>
             Take Quiz Again
           </Link>
         </div>
@@ -174,8 +177,57 @@ const Results = () => {
     )
   }
 
+  // Generate dynamic SEO data based on recommendations
+  const generateSEOData = () => {
+    if (!recommendations.length || !userPrefs) return {}
+
+    const topAnime = recommendations.slice(0, 3).map(anime => anime.title).join(', ')
+    const genres = userPrefs.genres.join(', ').replace(/_/g, ' ')
+    
+    const title = `Anime Recommendations: ${topAnime} | Retro Anime Recommender`
+    const description = `Discover anime like ${topAnime} based on your preferences for ${genres}. Get personalized anime recommendations with our intelligent matching system.`
+    const keywords = `${topAnime}, ${genres}, anime recommendations, personalized anime, anime finder`
+    
+    const structuredData = {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Personalized Anime Recommendations",
+      "description": description,
+      "numberOfItems": recommendations.length,
+      "itemListElement": recommendations.slice(0, 10).map((anime, index) => ({
+        "@type": "ListItem",
+        "position": index + 1,
+        "item": {
+          "@type": "Movie",
+          "name": anime.title,
+          "genre": anime.genres || [],
+          "description": anime.anilistData?.description || `Anime recommendation based on your preferences`,
+          "image": anime.anilistData?.coverImage?.large,
+          "aggregateRating": anime.anilistData?.averageScore ? {
+            "@type": "AggregateRating",
+            "ratingValue": anime.anilistData.averageScore / 10,
+            "bestRating": 10
+          } : undefined
+        }
+      }))
+    }
+
+    return { title, description, keywords, structuredData }
+  }
+
+  const seoData = generateSEOData()
+
   return (
     <div className="max-w-7xl mx-auto">
+      {/* SEO Component */}
+      <SEO 
+        title={seoData.title}
+        description={seoData.description}
+        keywords={seoData.keywords}
+        url={`https://your-domain.com/results?${searchParams.toString()}`}
+        structuredData={seoData.structuredData}
+      />
+      
       {/* Header */}
       <div className="text-center mb-12">
         <h1 className="retro-title text-3xl md:text-4xl mb-4">
@@ -250,7 +302,7 @@ const Results = () => {
       {/* Footer Actions */}
       <div className="text-center space-y-4">
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Link to="/" className="retro-button">
+          <Link to="/" className="retro-button" onClick={() => trackRetakeQuiz()}>
             ← Take Quiz Again
           </Link>
           <button 

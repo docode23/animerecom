@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { trackDonationClick } from '../utils/analytics'
 
 const DonationButton = ({ className = "" }) => {
   const [showQR, setShowQR] = useState(false)
@@ -7,7 +8,10 @@ const DonationButton = ({ className = "" }) => {
     <div className={`relative ${className}`}>
       {/* Donation Button */}
       <button
-        onClick={() => setShowQR(!showQR)}
+        onClick={() => {
+          setShowQR(!showQR)
+          trackDonationClick()
+        }}
         className="retro-button bg-retro-gold hover:bg-retro-orange text-vintage-ink font-bold px-3 py-2 sm:px-4 text-xs sm:text-sm shadow-lg transform hover:scale-105 transition-all duration-200"
       >
         <div className="flex items-center space-x-1 sm:space-x-2">

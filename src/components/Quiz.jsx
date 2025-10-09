@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import DonationButton from './DonationButton'
+import SEO from './SEO'
+import { trackQuizStart, trackQuizComplete, trackRetakeQuiz } from '../utils/analytics'
 
 const Quiz = () => {
   const navigate = useNavigate()
@@ -16,6 +18,9 @@ const Quiz = () => {
   const [loading, setLoading] = useState(true)
 
   useEffect(() => {
+    // Track quiz start
+    trackQuizStart()
+    
     // Load vocabularies from the generated index
     fetch('/anime-index.json')
       .then(res => res.json())
@@ -107,6 +112,9 @@ const Quiz = () => {
     if (currentStep < questions.length - 1) {
       setCurrentStep(currentStep + 1)
     } else {
+      // Track quiz completion
+      trackQuizComplete(answers)
+      
       // Navigate to results with answers
       const searchParams = new URLSearchParams()
       Object.entries(answers).forEach(([key, value]) => {
@@ -153,6 +161,14 @@ const Quiz = () => {
 
   return (
     <div className="max-w-4xl mx-auto">
+      {/* SEO Component */}
+      <SEO 
+        title="Anime Quiz - Find Your Perfect Anime Match | Retro Anime Recommender"
+        description="Take our personalized anime quiz to discover your next favorite series. Answer questions about your preferences and get tailored anime recommendations."
+        keywords="anime quiz, anime personality test, find anime, anime recommendations quiz, personalized anime finder, anime discovery quiz"
+        url="https://your-domain.com/"
+      />
+      
       {/* Progress Bar */}
       <div className="mb-8">
         <div className="flex justify-between items-center mb-2">
