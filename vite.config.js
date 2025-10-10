@@ -16,13 +16,7 @@ export default defineConfig({
       },
     },
     // Optimize for better performance
-    minify: 'terser',
-    terserOptions: {
-      compress: {
-        drop_console: true,
-        drop_debugger: true,
-      },
-    },
+    minify: 'esbuild', // Use esbuild instead of terser for faster builds
   },
   server: {
     port: 3000,
